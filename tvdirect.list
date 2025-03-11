@@ -2,7 +2,7 @@
 # AUTHOR: Ben
 # UPDATED: 2024-11-12
 # Syncnext API DIRECT
-- DOMAIN-SUFFIX,movie.douban.com
+DOMAIN-SUFFIX,movie.douban.com
 DOMAIN-SUFFIX,mddcloud.com.cn
 DOMAIN-SUFFIX,aliyundrive.asia
 DOMAIN-SUFFIX,ddys.info
