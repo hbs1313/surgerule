@@ -1,4 +1,4 @@
-# NAME: WeChat
+# 屏蔽微信相关域名
 # UPDATED: 2025-05-30
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,dldir1.qq.com
