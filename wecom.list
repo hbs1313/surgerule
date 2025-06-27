@@ -1,0 +1,5 @@
+# 放行企业微信相关域名
+DOMAIN-SUFFIX,work.weixin.qq.com
+DOMAIN-SUFFIX,qyapi.weixin.qq.com
+DOMAIN-SUFFIX,qy.weixin.qq.com
+DOMAIN-SUFFIX,work.wechat.com
