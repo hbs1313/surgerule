@@ -17,3 +17,6 @@
 #IP-CIDR,54.241.130.169/32,no-resolve
 #DOMAIN-SUFFIX,ziniao.com
 DOMAIN-SUFFIX,ipfoxy.com
+DOMAIN-SUFFIX,crateandbarrel.com
+DOMAIN-SUFFIX,westelm.com
+DOMAIN-SUFFIX,potterybarn.com
