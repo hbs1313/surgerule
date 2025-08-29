@@ -19,5 +19,6 @@ IP-CIDR,54.177.86.117/32,no-resolve
 IP-CIDR,204.236.170.160/32,no-resolve
 IP-CIDR,54.241.217.186/32,no-resolve
 IP-CIDR,54.241.130.169/32,no-resolve
+IP-CIDR,38.127.23.121/32,no-resolve
 DOMAIN-SUFFIX,ziniao.com
 DOMAIN-SUFFIX,liblib.art
