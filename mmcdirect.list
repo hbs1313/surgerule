@@ -10,4 +10,4 @@ DOMAIN-SUFFIX,wpscdn.cn
 DOMAIN-SUFFIX,ksord.com
 DOMAIN-SUFFIX,kdocs.cn
 DOMAIN-SUFFIX,liblib.art
-DOMAIN-SUFFIX,agl.amazon.com
+#DOMAIN-SUFFIX,agl.amazon.com
