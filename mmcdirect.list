@@ -17,9 +17,9 @@ IP-CIDR,54.241.217.186/32,no-resolve
 IP-CIDR,54.241.130.169/32,no-resolve
 IP-CIDR,38.127.23.121/32,no-resolve
 DOMAIN-SUFFIX,ziniao.com
-#DOMAIN-SUFFIX,wps.cn
-#DOMAIN-SUFFIX,wpscdn.cn
-#DOMAIN-SUFFIX,ksord.com
-#DOMAIN-SUFFIX,kdocs.cn
+DOMAIN-SUFFIX,wps.cn
+DOMAIN-SUFFIX,wpscdn.cn
+DOMAIN-SUFFIX,ksord.com
+DOMAIN-SUFFIX,kdocs.cn
 DOMAIN-SUFFIX,liblib.art
 DOMAIN-SUFFIX,agl.amazon.com
