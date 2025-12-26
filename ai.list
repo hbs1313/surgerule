@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,open-vsx.org
+DOMAIN-SUFFIX,openvsx.eclipsecontent.org
+DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-KEYWORD,openai
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
