@@ -2,6 +2,7 @@
 # UPDATED: 2024-12-19
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,ai.studio
 DOMAIN,gemini.google.com
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
