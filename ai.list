@@ -1,6 +1,5 @@
 # NAME: OpenAI
 # UPDATED: 2024-12-19
-DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN-SUFFIX,ai.studio
 DOMAIN,gemini.google.com
@@ -51,6 +50,13 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claude.com
+# Datadog / Claude telemetry
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,logs.browser-intake-datadoghq.com
+DOMAIN-SUFFIX,http-intake.logs.datadoghq.com
+DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com
 #grok
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,grokipedia.com
