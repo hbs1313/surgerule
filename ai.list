@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
+#cursor
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-KEYWORD,cursor
 #openai
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
