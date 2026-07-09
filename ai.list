@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,googleusercontent.com
 #cursor
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-KEYWORD,cursor
 #openai
 DOMAIN,openai-api.arkoselabs.com
