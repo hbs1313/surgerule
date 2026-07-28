@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,kie.ai
 #cursor
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
