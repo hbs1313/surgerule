@@ -1,10 +1,12 @@
 # NAME: Capcut
-# UPDATED: 2024-12-19
-DOMAIN-KEYWORD,capcut
+# UPDATED: 2026-07-29
 DOMAIN-SUFFIX,capcut.com
 DOMAIN-SUFFIX,capcutstatic.com
-DOMAIN-SUFFIX,bytedance.net
-DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,capcutapi.com
 DOMAIN-SUFFIX,capcutapi.us
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,muscdn.com

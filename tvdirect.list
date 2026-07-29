@@ -1,6 +1,6 @@
-# NAME: TV
+# NAME: TV Direct
 # AUTHOR: Ben
-# UPDATED: 2024-11-12
+# UPDATED: 2026-07-29
 # Syncnext API DIRECT
 DOMAIN-SUFFIX,movie.douban.com
 DOMAIN-SUFFIX,mddcloud.com.cn
@@ -18,11 +18,11 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,ctyunxs.cn
 DOMAIN-SUFFIX,hls.aoxtv.com
 DOMAIN-KEYWORD,ffzy-play
-DOMAIN-KEYWORD,bfzycdn.com
+DOMAIN-SUFFIX,bfzycdn.com
 DOMAIN-KEYWORD,lzcdn
 DOMAIN-KEYWORD,cdnlz
 DOMAIN-KEYWORD,lz-cdn
-DOMAIN-KEYWORD,default.akamaized.net
+DOMAIN-SUFFIX,default.akamaized.net
 DOMAIN-KEYWORD,vip.ffzy-online
 DOMAIN-KEYWORD,vip.ffzy-play
 DOMAIN-KEYWORD,ffzyread
@@ -32,18 +32,18 @@ DOMAIN-SUFFIX,czzy88.com
 DOMAIN-SUFFIX,czzy22.com
 DOMAIN-SUFFIX,czzy66.com
 DOMAIN-SUFFIX,cz233.com
-DOMAIN-SUFFIX,CZZ9.COM
+DOMAIN-SUFFIX,czz9.com
 DOMAIN-SUFFIX,czzy.top
 DOMAIN-SUFFIX,czys.top
 DOMAIN-SUFFIX,czzy77.com
-IP-CIDR,216.180.0.0/16
-IP-CIDR,103.160.204.120/32
-IP-CIDR,138.199.9.104/32
+IP-CIDR,216.180.0.0/16,no-resolve
+IP-CIDR,103.160.204.120/32,no-resolve
+IP-CIDR,138.199.9.104/32,no-resolve
 DOMAIN-SUFFIX,wogg.link
 DOMAIN-SUFFIX,xxooo.cf
 DOMAIN-SUFFIX,wogg.xyz
 DOMAIN-SUFFIX,pstatp.com
-DOMAIN-KEYWORD,tt.cuc.myqcloud.com.cn
+DOMAIN-SUFFIX,tt.cuc.myqcloud.com.cn
 DOMAIN-SUFFIX,ikzybf.com
 DOMAIN-SUFFIX,yanetflix.one
 DOMAIN-SUFFIX,bfikuncdn.com

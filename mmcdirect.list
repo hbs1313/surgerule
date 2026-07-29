@@ -1,37 +1,62 @@
-# NAME: mmcdirect
+# NAME: MMC Direct
 # AUTHOR: ben
-#DOMAIN-SUFFIX,1ucrs.com
-#DOMAIN-KEYWORD,appspot
-#IP-CIDR6,2620:120:e000::/40,no-resolve
-#USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-#PROCESS-NAME,com.android.vending
-DOMAIN-SUFFIX,wps.cn
-DOMAIN-SUFFIX,wpscdn.cn
-DOMAIN-SUFFIX,ksord.com
-DOMAIN-SUFFIX,kdocs.cn
-DOMAIN-SUFFIX,liblib.art
-DOMAIN-SUFFIX,agl.amazon.com
-DOMAIN-SUFFIX,sorftime.com
-DOMAIN-SUFFIX,nxonearth.com
-#naixi-jichang 机场相关域名走直连
-DOMAIN-SUFFIX,8c5ecp7fb.sbs
-DOMAIN-SUFFIX,pittm7keq.sbs
-DOMAIN-SUFFIX,metaglide.org
-DOMAIN-SUFFIX,wrecking7857.com
-DOMAIN-SUFFIX,carrousel6917.com
-DOMAIN-SUFFIX,simmering3378.com
-DOMAIN-SUFFIX,lingxing.com
-DOMAIN-SUFFIX,feishu.cn
+# UPDATED: 2026-07-29
+# NOTE: Custom services that should bypass proxy policies.
+
+# China and local operations
+DOMAIN-SUFFIX,ah-amr.cn
+DOMAIN-SUFFIX,aheca.cn
 DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,digicert.cn
 DOMAIN-SUFFIX,dingtalkapps.com
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,lingxingerp.com
-DOMAIN-SUFFIX,umaicloud.com
-DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,kdocs.cn
+DOMAIN-SUFFIX,ksord.com
+DOMAIN-SUFFIX,lingxing.com
+DOMAIN-SUFFIX,lingxingerp.com
 DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,minimaxi.com
+DOMAIN-SUFFIX,sorftime.com
+DOMAIN-SUFFIX,umaicloud.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wps.cn
+DOMAIN-SUFFIX,wpscdn.cn
+DOMAIN-SUFFIX,zijieapi.com
+
+# Amazon storefront and static assets
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
+
+# Financial, government, and regional services
+DOMAIN-KEYWORD,binance
+DOMAIN-SUFFIX,cbp.gov
+DOMAIN-SUFFIX,citylink.com.hk
+DOMAIN-SUFFIX,europapa.com
+DOMAIN-SUFFIX,gouv.fr
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,mercuryo.io
+DOMAIN-SUFFIX,polymarket.com
+
+# Custom direct services
+DOMAIN-SUFFIX,aiuys.com
+DOMAIN-SUFFIX,laozhang.ai
+DOMAIN-SUFFIX,liblib.art
+DOMAIN-SUFFIX,metaglide.org
+DOMAIN-SUFFIX,nxonearth.com
+DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ubnt.com
 DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,ustc.edu.cn
+
+# Direct-access provider domains
+DOMAIN-SUFFIX,8c5ecp7fb.sbs
+DOMAIN-SUFFIX,carrousel6917.com
+DOMAIN-SUFFIX,pittm7keq.sbs
+DOMAIN-SUFFIX,simmering3378.com
+DOMAIN-SUFFIX,wrecking7857.com

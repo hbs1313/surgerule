@@ -1,53 +1,79 @@
 payload:
-  - DOMAIN,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,openaimerge.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,ai.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
-  - DOMAIN-SUFFIX,ai.studio
-  - DOMAIN,gemini.google.com
   - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN,client-api.arkoselabs.com
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN,static.cloudflareinsights.com
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,algolia.net
-  - DOMAIN-SUFFIX,api.statsig.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,sora.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,host.livekit.cloud
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,launchdarkly.com
-  - DOMAIN-SUFFIX,oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN-SUFFIX,observeit.net
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-SUFFIX,segment.io
-  - DOMAIN-SUFFIX,segment.com
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud
+  - DOMAIN-SUFFIX,host.livekit.cloud
   - DOMAIN-SUFFIX,turn.livekit.cloud
-  - DOMAIN-SUFFIX,open-vsx.org
-  - DOMAIN-SUFFIX,openvsx.eclipsecontent.org
-  - DOMAIN-SUFFIX,antigravity-unleash.goog
-  - DOMAIN-KEYWORD,openai
-  - IP-CIDR,24.199.123.28/32,no-resolve
-  - IP-CIDR,64.23.132.171/32,no-resolve
-  - IP-ASN,20473,no-resolve
-  - DOMAIN,api.anthropic.com
+  - DOMAIN-SUFFIX,api.statsig.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN,cdn.workos.com
+  - DOMAIN,forwarder.workos.com
+  - DOMAIN,setup.workos.com
+  - DOMAIN,images.workoscdn.com
+  - DOMAIN,workos.imgix.net
+  - DOMAIN,js.stripe.com
+  - DOMAIN,rum.browser-intake-datadoghq.com
+  - DOMAIN,o207216.ingest.sentry.io
+  - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,claude.com
-  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN-SUFFIX,ai.studio
+  - DOMAIN-SUFFIX,z.ai
+  - DOMAIN,ai.google.dev
+  - DOMAIN,aistudio.google.com
+  - DOMAIN,gemini.google.com
+  - DOMAIN,makersuite.google.com
+  - DOMAIN,bard.google.com
+  - DOMAIN,notebooklm.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,proactivebackend-pa.googleapis.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,apis.google.com
+  - DOMAIN-SUFFIX,usercontent.goog
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grokusercontent.com
+  - DOMAIN-SUFFIX,grokipedia.com
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN-SUFFIX,dify.ai
+  - DOMAIN-SUFFIX,coze.com
+  - DOMAIN-SUFFIX,krea.ai
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,lovart.ai
+  - DOMAIN-SUFFIX,kie.ai
   - DOMAIN-SUFFIX,openrouter.ai
   - DOMAIN-SUFFIX,elevenlabs.io
-  - DOMAIN-SUFFIX,posthog.com
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,arena.ai
+  - DOMAIN-SUFFIX,nousresearch.com

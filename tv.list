@@ -1,6 +1,6 @@
 # NAME: TV
 # AUTHOR: Ben
-# UPDATED: 2024-11-12
+# UPDATED: 2026-07-29
 # Syncnext API PROXY
 DOMAIN-SUFFIX,v1.ax
 DOMAIN-SUFFIX,notion-api.splitbee.io
@@ -21,7 +21,6 @@ DOMAIN-SUFFIX,ibb.co
 DOMAIN-SUFFIX,kin6c1.com
 DOMAIN-SUFFIX,iz8qkg.com
 DOMAIN-SUFFIX,v82u1l.com
-DOMAIN-SUFFIX,ikzybf.com
 DOMAIN-SUFFIX,scrapingbee.com
 DOMAIN-SUFFIX,nivod.tv
 DOMAIN-SUFFIX,nivodi.tv

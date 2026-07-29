@@ -1,21 +1,49 @@
 payload:
-  - IP-CIDR,54.67.54.40/32,no-resolve
-  - IP-CIDR,38.127.22.217/32,no-resolve
-  - IP-CIDR,52.52.94.47/32,no-resolve
-  - IP-CIDR,38.127.22.164/32,no-resolve
-  - IP-CIDR,54.241.5.168/32,no-resolve
-  - IP-CIDR,13.56.185.134/32,no-resolve
-  - IP-CIDR,54.177.86.117/32,no-resolve
-  - IP-CIDR,204.236.170.160/32,no-resolve
-  - IP-CIDR,54.241.217.186/32,no-resolve
-  - IP-CIDR,54.241.130.169/32,no-resolve
-  - IP-CIDR,38.127.23.121/32,no-resolve
-  - DOMAIN-SUFFIX,ziniao.com
+  - DOMAIN-SUFFIX,ah-amr.cn
+  - DOMAIN-SUFFIX,aheca.cn
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,digicert.cn
+  - DOMAIN-SUFFIX,dingtalkapps.com
+  - DOMAIN-SUFFIX,douyinpic.com
+  - DOMAIN-SUFFIX,douyinstatic.com
+  - DOMAIN-SUFFIX,feishu.cn
+  - DOMAIN-SUFFIX,kdocs.cn
+  - DOMAIN-SUFFIX,ksord.com
+  - DOMAIN-SUFFIX,lingxing.com
+  - DOMAIN-SUFFIX,lingxingerp.com
+  - DOMAIN-SUFFIX,miui.com
+  - DOMAIN-SUFFIX,minimaxi.com
+  - DOMAIN-SUFFIX,sorftime.com
+  - DOMAIN-SUFFIX,umaicloud.com
+  - DOMAIN-SUFFIX,weixin.com
+  - DOMAIN-SUFFIX,weixin.qq.com
   - DOMAIN-SUFFIX,wps.cn
   - DOMAIN-SUFFIX,wpscdn.cn
-  - DOMAIN-SUFFIX,ksord.com
-  - DOMAIN-SUFFIX,kdocs.cn
+  - DOMAIN-SUFFIX,zijieapi.com
+  - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazon-adsystem.com
+  - DOMAIN-SUFFIX,images-amazon.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,ssl-images-amazon.com
+  - DOMAIN-KEYWORD,binance
+  - DOMAIN-SUFFIX,cbp.gov
+  - DOMAIN-SUFFIX,citylink.com.hk
+  - DOMAIN-SUFFIX,europapa.com
+  - DOMAIN-SUFFIX,gouv.fr
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,mercuryo.io
+  - DOMAIN-SUFFIX,polymarket.com
+  - DOMAIN-SUFFIX,aiuys.com
+  - DOMAIN-SUFFIX,laozhang.ai
   - DOMAIN-SUFFIX,liblib.art
-  - DOMAIN-SUFFIX,agl.amazon.com
-  - DOMAIN-SUFFIX,sorftime.com
+  - DOMAIN-SUFFIX,metaglide.org
   - DOMAIN-SUFFIX,nxonearth.com
+  - DOMAIN-SUFFIX,speedtest.net
+  - DOMAIN-SUFFIX,ubnt.com
+  - DOMAIN-SUFFIX,ui.com
+  - DOMAIN-SUFFIX,ustc.edu.cn
+  - DOMAIN-SUFFIX,8c5ecp7fb.sbs
+  - DOMAIN-SUFFIX,carrousel6917.com
+  - DOMAIN-SUFFIX,pittm7keq.sbs
+  - DOMAIN-SUFFIX,simmering3378.com
+  - DOMAIN-SUFFIX,wrecking7857.com

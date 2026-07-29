@@ -1,5 +1,6 @@
 # NAME: ben
 # AUTHOR: ben
+# UPDATED: 2026-07-29
 #DOMAIN-SUFFIX,1ucrs.com
 #DOMAIN-KEYWORD,appspot
 #IP-CIDR6,2620:120:e000::/40,no-resolve
@@ -14,20 +15,11 @@ DOMAIN-SUFFIX,co.us
 DOMAIN-SUFFIX,co.nz
 DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-SUFFIX,csun.edu
-DOMAIN-SUFFIX,manus.im
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,beehiiv.com
 DOMAIN-SUFFIX,adscrafted.com
-DOMAIN-KEYWORD,dify.ai
-DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,swapd.co
-DOMAIN-SUFFIX,cloudcone.com
-DOMAIN-SUFFIX,krea.ai
-DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,wix.com
-DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,n8n.cloud
 DOMAIN-SUFFIX,airtable.com
 DOMAIN-SUFFIX,wyo.gov
@@ -45,13 +37,12 @@ DOMAIN-SUFFIX,keepa.com
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,modolabs.net
 DOMAIN-SUFFIX,roblox.com
-DOMAIN-KEYWORD,azure
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azure.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,caixin.com
-DOMAIN-KEYWORD,linkedin
-DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,eppo.cloud
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,3min.top
@@ -59,11 +50,18 @@ DOMAIN-SUFFIX,t-mobile.com
 DOMAIN-SUFFIX,substack.com
 DOMAIN-SUFFIX,ledger.com
 DOMAIN-SUFFIX,home-assistant.io
-DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,nexitally.com
-DOMAIN-SUFFIX,aiuys.com
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,proton.com
 #DOMAIN-SUFFIX,nxonearth.com
 DOMAIN-SUFFIX,tabbitbrowser.com
 DOMAIN-SUFFIX,cults3d.com
+DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,walmart.ca
+DOMAIN-SUFFIX,walmart.com.mx
+DOMAIN-SUFFIX,walmartconnect.com
+DOMAIN-SUFFIX,walmartimages.com
+DOMAIN-SUFFIX,walmartlabs.com
+DOMAIN-SUFFIX,redpocket.com
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,whoer.net

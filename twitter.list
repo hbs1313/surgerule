@@ -1,6 +1,6 @@
 # NAME: Twitter
 # AUTHOR: Ben
-# UPDATED: 2024-11-12
+# UPDATED: 2026-07-29
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
@@ -26,7 +26,6 @@ DOMAIN-SUFFIX,twttr.net
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
-DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,twitter
 IP-CIDR,192.133.76.0/22,no-resolve
 IP-CIDR,199.59.148.0/22,no-resolve
