@@ -76,6 +76,9 @@ DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 
+# Shared authentication and anti-bot dependencies
+DOMAIN-SUFFIX,challenges.cloudflare.com
+
 # Other AI services used in this network
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,perplexity.ai
