@@ -1,93 +1,84 @@
-# NAME: OpenAI
-# UPDATED: 2024-12-19
-DOMAIN-SUFFIX,ai.studio
-DOMAIN,gemini.google.com
-DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,kie.ai
-#cursor
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursorapi.com
-DOMAIN-SUFFIX,cursor-cdn.com
-DOMAIN-KEYWORD,cursor
-#openai
-DOMAIN,chat.openai.com.cdn.cloudflare.net
+# NAME: AI Services
+# AUTHOR: ben
+# UPDATED: 2026-07-29
+# NOTE: Product domains plus exact vendor-documented dependencies.
+# Broad shared-platform suffixes, whole ASNs, and fixed IPs are excluded.
+
+# OpenAI / ChatGPT / Sora
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openai-api.arkoselabs.com
+DOMAIN,client-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,segment.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-SUFFIX,open-vsx.org
-DOMAIN-SUFFIX,openvsx.eclipsecontent.org
-DOMAIN-SUFFIX,antigravity-unleash.goog
-DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
-#claude
-DOMAIN,cdn.usefathom.com
-DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN,api.anthropic.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+DOMAIN,js.stripe.com
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+
+# Anthropic / Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claude.com
-# Datadog / Claude telemetry
-DOMAIN-SUFFIX,datadoghq.com
-DOMAIN-SUFFIX,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
-DOMAIN-SUFFIX,logs.browser-intake-datadoghq.com
-DOMAIN-SUFFIX,http-intake.logs.datadoghq.com
-DOMAIN-SUFFIX,http-intake.logs.us5.datadoghq.com
-#grok
-DOMAIN-SUFFIX,spacex.com
-DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+
+# Google Gemini / AI Studio / NotebookLM
+DOMAIN-SUFFIX,ai.studio
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,gemini.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,bard.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,apis.google.com
+DOMAIN-SUFFIX,antigravity-unleash.goog
+
+# xAI / Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,grokipedia.com
+
+# Cursor
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+
+# Other AI services used in this network
+DOMAIN-SUFFIX,kie.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,elevenlabs.io
-DOMAIN-SUFFIX,posthog.com
 DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,arena.ai
-#spectrumbusinessphone
-DOMAIN-SUFFIX,spectrumbusiness.net
-DOMAIN-SUFFIX,spectrum.net
-DOMAIN-KEYWORD,spectrum
 DOMAIN-SUFFIX,nousresearch.com
-#tiktok
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktokw.us
-DOMAIN-SUFFIX,tiktokv.us
-DOMAIN-SUFFIX,tiktokshops.us
-DOMAIN-SUFFIX,tiktokglobalshop.com
-DOMAIN-SUFFIX,redpocket.com
-DOMAIN-SUFFIX,twilio.com
