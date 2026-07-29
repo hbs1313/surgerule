@@ -1,5 +1,6 @@
 payload:
   - DOMAIN-SUFFIX,aifish.io
+  - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudcone.com
   - DOMAIN-SUFFIX,dlercloud.com
   - DOMAIN-SUFFIX,dog.seedhost.eu
