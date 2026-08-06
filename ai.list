@@ -80,6 +80,7 @@ DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 
 # Other AI services used in this network
+DOMAIN-SUFFIX,heygen.com
 DOMAIN-SUFFIX,bfl.ai
 DOMAIN-SUFFIX,pika.art
 DOMAIN-SUFFIX,manus.im
