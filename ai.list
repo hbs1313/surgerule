@@ -80,7 +80,6 @@ DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 
 # Other AI services used in this network
-DOMAIN-SUFFIX,lmarena.ai
 DOMAIN-SUFFIX,litellm.ai
 DOMAIN-SUFFIX,heygen.com
 DOMAIN-SUFFIX,bfl.ai
