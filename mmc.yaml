@@ -13,11 +13,16 @@ payload:
   - DOMAIN-SUFFIX,quad9.net
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,wisprflow.ai
+  - DOMAIN-SUFFIX,memorecool.com
+  - DOMAIN-SUFFIX,ideehome.com
+  - DOMAIN-SUFFIX,comax.ai
+  - DOMAIN-SUFFIX,ibluepage.com
   - DOMAIN-SUFFIX,avaskaccounting.co.uk
   - DOMAIN-SUFFIX,crateandbarrel.com
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN,equaldcdn.com
   - DOMAIN-SUFFIX,homedepot.com
+  - DOMAIN-SUFFIX,lowes.com
   - DOMAIN-SUFFIX,houzz.com
   - DOMAIN-SUFFIX,larksuite.com
   - DOMAIN-SUFFIX,nextinsurance.com

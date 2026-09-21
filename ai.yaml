@@ -62,6 +62,11 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,cursor-cdn.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,litellm.ai
+  - DOMAIN-SUFFIX,typesafe.ai
+  - DOMAIN-SUFFIX,heygen.com
+  - DOMAIN-SUFFIX,bfl.ai
+  - DOMAIN-SUFFIX,pika.art
   - DOMAIN-SUFFIX,manus.im
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,pplx.ai
@@ -72,9 +77,16 @@ payload:
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,lovart.ai
   - DOMAIN-SUFFIX,kie.ai
+  - DOMAIN-SUFFIX,aiquickdraw.com
+  - DOMAIN-SUFFIX,redpandaai.co
   - DOMAIN-SUFFIX,openrouter.ai
   - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,hf.co
   - DOMAIN-SUFFIX,arena.ai
   - DOMAIN-SUFFIX,nousresearch.com
+  - DOMAIN-SUFFIX,builderlab.xyz
+  - DOMAIN-SUFFIX,buzz.xyz
+  - DOMAIN-SUFFIX,annualcreditreport.com
+  - DOMAIN-SUFFIX,equifax.com
+  - DOMAIN-SUFFIX,experian.com
