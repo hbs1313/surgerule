@@ -1,6 +1,6 @@
 # NAME: AI Services
 # AUTHOR: ben
-# UPDATED: 2026-07-29
+# UPDATED: 2026-09-20
 # NOTE: Product domains plus exact vendor-documented dependencies.
 # Broad shared-platform suffixes, whole ASNs, and fixed IPs are excluded.
 
@@ -63,6 +63,29 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,apis.google.com
 DOMAIN-SUFFIX,usercontent.goog
 DOMAIN-SUFFIX,antigravity-unleash.goog
+
+# Apple Intelligence / Siri / Private Cloud Compute
+# Source: https://support.apple.com/en-us/101555
+# smoot also serves Spotlight, Lookup, Safari, News, Messages, and Music search.
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+
+# User-requested supplemental Apple endpoints; not all are AI-specific.
+DOMAIN,gateway.icloud.com
+DOMAIN,seed.siri.apple.com
+DOMAIN,probe.icloud.com
+DOMAIN,metrics.icloud.com
+DOMAIN,apple-relay.mask.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-api.fe2.apple-dns.net
+DOMAIN,apple-relay.akamaized.net
+DOMAIN,apple-carry-relay.cloudflare.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,api-siri-prod.apple.com
 
 # xAI / Grok
 DOMAIN-SUFFIX,x.ai
