@@ -103,6 +103,9 @@ DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
 
 # Other AI services used in this network
+# muse.ai migrated to skiv.com; cover both product domains.
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,skiv.com
 DOMAIN-SUFFIX,litellm.ai
 DOMAIN-SUFFIX,typesafe.ai
 DOMAIN-SUFFIX,heygen.com

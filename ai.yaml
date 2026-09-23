@@ -79,6 +79,8 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,cursor-cdn.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,skiv.com
   - DOMAIN-SUFFIX,litellm.ai
   - DOMAIN-SUFFIX,typesafe.ai
   - DOMAIN-SUFFIX,heygen.com
