@@ -1,0 +1,11 @@
+# NAME: Spectrum
+# AUTHOR: ben
+# UPDATED: 2026-10-02
+# NOTE: Spectrum / Spectrum Business sites, account, API and CDN. Policy: the fixed US exit registered with the account.
+
+DOMAIN-SUFFIX,spectrum.com
+DOMAIN-SUFFIX,spectrum.net
+DOMAIN-SUFFIX,spectrumbusiness.net
+DOMAIN-SUFFIX,spectrumbusiness.com
+DOMAIN-SUFFIX,spectrumenterprise.net
+DOMAIN-SUFFIX,spectrumflow.net

@@ -1,0 +1,22 @@
+# NAME: AI Google
+# AUTHOR: ben
+# UPDATED: 2026-10-02
+# NOTE: Google AI products. Policy: AI-Google (the same exit as the rest of Google). Placed ahead of ai.list.
+
+DOMAIN-SUFFIX,ai.studio
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,gemini.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,bard.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,apis.google.com
+DOMAIN-SUFFIX,usercontent.goog
+DOMAIN-SUFFIX,antigravity-unleash.goog

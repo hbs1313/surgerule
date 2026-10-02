@@ -47,3 +47,32 @@ payload:
   - DOMAIN-SUFFIX,pittm7keq.sbs
   - DOMAIN-SUFFIX,simmering3378.com
   - DOMAIN-SUFFIX,wrecking7857.com
+  - DOMAIN-SUFFIX,amazon.co.uk
+  - DOMAIN-SUFFIX,amazon.de
+  - DOMAIN-SUFFIX,amazon.fr
+  - DOMAIN-SUFFIX,amazon.it
+  - DOMAIN-SUFFIX,amazon.es
+  - DOMAIN-SUFFIX,amazon.nl
+  - DOMAIN-SUFFIX,amazon.se
+  - DOMAIN-SUFFIX,amazon.pl
+  - DOMAIN-SUFFIX,amazon.com.be
+  - DOMAIN-SUFFIX,amazon.co.jp
+  - DOMAIN-SUFFIX,amazon.ca
+  - DOMAIN-SUFFIX,amazon.com.mx
+  - DOMAIN-SUFFIX,amazon.com.br
+  - DOMAIN-SUFFIX,amazon.com.au
+  - DOMAIN-SUFFIX,amazon.in
+  - DOMAIN-SUFFIX,amazon.sg
+  - DOMAIN-SUFFIX,amazon.ae
+  - DOMAIN-SUFFIX,amazon.sa
+  - DOMAIN-SUFFIX,amazon.com.tr
+  - DOMAIN-SUFFIX,amazon.eg
+  - DOMAIN-KEYWORD,shenzhenair
+  - DOMAIN-SUFFIX,nexconvert.com
+  - DOMAIN-SUFFIX,lzcdn2.com
+  - DOMAIN-SUFFIX,apiyi.com
+  - DOMAIN-SUFFIX,cdn.shopify.com
+  - DOMAIN-SUFFIX,monorail-edge.shopifysvc.com
+  - DOMAIN-SUFFIX,otlp-http-production.shopifysvc.com
+  - DOMAIN-SUFFIX,argus.shopifycloud.com
+  - DOMAIN-KEYWORD,speedtest

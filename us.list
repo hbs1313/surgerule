@@ -1,0 +1,10 @@
+# NAME: US Exit
+# AUTHOR: ben
+# UPDATED: 2026-10-02
+# NOTE: Sites that need the general US exit. Policy: AI.
+
+DOMAIN-SUFFIX,gumroad.com
+DOMAIN-SUFFIX,co.il
+DOMAIN-SUFFIX,robinhood.com
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-KEYWORD,browser-intake

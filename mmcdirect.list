@@ -1,6 +1,6 @@
 # NAME: MMC Direct
 # AUTHOR: ben
-# UPDATED: 2026-07-29
+# UPDATED: 2026-10-02
 # NOTE: Custom services that should bypass proxy policies.
 
 # China and local operations
@@ -60,3 +60,40 @@ DOMAIN-SUFFIX,carrousel6917.com
 DOMAIN-SUFFIX,pittm7keq.sbs
 DOMAIN-SUFFIX,simmering3378.com
 DOMAIN-SUFFIX,wrecking7857.com
+
+# Amazon marketplaces outside amazon.com
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.fr
+DOMAIN-SUFFIX,amazon.it
+DOMAIN-SUFFIX,amazon.es
+DOMAIN-SUFFIX,amazon.nl
+DOMAIN-SUFFIX,amazon.se
+DOMAIN-SUFFIX,amazon.pl
+DOMAIN-SUFFIX,amazon.com.be
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.ca
+DOMAIN-SUFFIX,amazon.com.mx
+DOMAIN-SUFFIX,amazon.com.br
+DOMAIN-SUFFIX,amazon.com.au
+DOMAIN-SUFFIX,amazon.in
+DOMAIN-SUFFIX,amazon.sg
+DOMAIN-SUFFIX,amazon.ae
+DOMAIN-SUFFIX,amazon.sa
+DOMAIN-SUFFIX,amazon.com.tr
+DOMAIN-SUFFIX,amazon.eg
+
+# Single sites
+DOMAIN-KEYWORD,shenzhenair
+DOMAIN-SUFFIX,nexconvert.com
+DOMAIN-SUFFIX,lzcdn2.com
+DOMAIN-SUFFIX,apiyi.com
+
+# Shopify CDN, telemetry and risk endpoints (the control plane uses the proxy)
+DOMAIN-SUFFIX,cdn.shopify.com
+DOMAIN-SUFFIX,monorail-edge.shopifysvc.com
+DOMAIN-SUFFIX,otlp-http-production.shopifysvc.com
+DOMAIN-SUFFIX,argus.shopifycloud.com
+
+# Speed tests measure the local line
+DOMAIN-KEYWORD,speedtest

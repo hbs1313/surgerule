@@ -6,19 +6,30 @@ Personal routing rules used by Surge and compatible YAML rule providers.
 
 | File | Intended policy | Purpose |
 | --- | --- | --- |
-| `ai.list` | `AI` | AI products and exact product dependencies |
-| `ben.list` | `AI` | Personal services that require the stable US/AI exit |
-| `mmc.list` | `Proxy` | Business, network, and SaaS services using the general proxy |
-| `mmcdirect.list` | `DIRECT` | Explicit direct-access exceptions |
 | `ziniao.list` | `DIRECT` | Ziniao client and service endpoints |
-| `twitter.list` | `AI` | X/Twitter traffic |
-| `capcut.list` | profile-dependent | CapCut and ByteDance media endpoints |
-| `tv.list` | `Proxy` | TV metadata, media, and scraping services |
+| `mmcdirect.list` | `DIRECT` | Explicit direct-access exceptions: local services, Amazon marketplaces, single sites, speed tests |
+| `capcut.list` | `DIRECT` | CapCut and ByteDance media endpoints |
+| `wechat.list` | `DIRECT` | WeChat domain, IP, ASN, and user-agent rules |
+| `wecom.list` | `DIRECT` | WeCom-specific domains |
 | `tvdirect.list` | `DIRECT` | TV and CDN endpoints that work better directly |
-| `wechat.list` | profile-dependent | WeChat domain, IP, ASN, and user-agent rules |
-| `wecom.list` | profile-dependent | WeCom-specific domains |
+| `proxy.list` | `Proxy` | Single sites through the general proxy |
+| `oix-hk.list` | `oix-hk` | Sites pinned to the oix Hong Kong group |
+| `spectrum.list` | fixed US exit | Spectrum / Spectrum Business sites, account, API and CDN |
+| `ai-apple.list` | `AI-Apple` | Apple Intelligence, Siri and Private Relay endpoints |
+| `ai-chat.list` | `AI-Chat` | ChatGPT / Claude and their content and authentication dependencies |
+| `ai-google.list` | `AI-Google` | Google AI products |
+| `ai.list` | `AI` | AI products and exact product dependencies |
+| `us.list` | `AI` | Sites that need the general US exit |
+| `ben.list` | `Work-US` | Personal and business services on the stable US identity |
+| `twitter.list` | `Work-US` | X/Twitter traffic |
+| `mmc.list` | `Work-US` | Business, network, and SaaS services |
+| `tv.list` | `Proxy` | TV metadata, media, and scraping services |
 | `yy.list` | profile-dependent | Operations-team source IPs |
 | `zhuli.list` | profile-dependent | Assistant-team source IPs |
+
+The table is in the order the Surge profiles evaluate the lists. Which list goes to
+which policy, and in what order, is set in the shared `[Rule]` section of the Surge
+profiles; this repository holds the domains.
 
 ## Maintenance rules
 
@@ -30,4 +41,8 @@ Personal routing rules used by Surge and compatible YAML rule providers.
 - Avoid whole-ASN and shared-platform suffix rules unless the entire network or
   platform is intentionally in scope.
 - Keep a domain in only one list when those lists are assigned to different
-  policies.
+  policies. One exception: `ai-apple.list`, `ai-chat.list` and `ai-google.list` are
+  evaluated ahead of `ai.list` and win; `ai.list` still names those products for
+  consumers that have a single AI policy.
+- A new site goes into the list of the exit it needs; the profiles pick the change
+  up at their next daily refresh of the lists.
