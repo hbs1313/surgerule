@@ -1,10 +1,15 @@
 # NAME: US Exit
 # AUTHOR: ben
-# UPDATED: 2026-10-02
+# UPDATED: 2026-10-03
 # NOTE: Sites that need the general US exit. Policy: AI.
 
 DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,co.il
 DOMAIN-SUFFIX,robinhood.com
 DOMAIN-SUFFIX,datadoghq.com
-DOMAIN-KEYWORD,browser-intake
+# Datadog RUM 遥测：原 DOMAIN-KEYWORD,browser-intake 太宽，改精确后缀（各区域接入点）
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.eu
+DOMAIN-SUFFIX,browser-intake-datadoghq.us
+DOMAIN-SUFFIX,browser-intake-datadoghq.us3
+DOMAIN-SUFFIX,browser-intake-datadoghq.us5
