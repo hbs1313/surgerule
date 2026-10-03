@@ -1,7 +1,7 @@
 # NAME: AI Chat
 # AUTHOR: ben
 # UPDATED: 2026-10-02
-# NOTE: ChatGPT / Claude and their content and authentication dependencies. Policy: AI-Chat (one fixed exit). Placed ahead of ai.list.
+# NOTE: ChatGPT / Claude and their content, telemetry, billing and anti-bot dependencies. Policy: AI-Chat (one fixed exit). Placed ahead of ai.list.
 
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -30,16 +30,22 @@ DOMAIN,forwarder.workos.com
 DOMAIN,setup.workos.com
 DOMAIN,images.workoscdn.com
 DOMAIN,workos.imgix.net
-DOMAIN,js.stripe.com
-DOMAIN,rum.browser-intake-datadoghq.com
-DOMAIN,o207216.ingest.sentry.io
-DOMAIN,o33249.ingest.sentry.io
+# Telemetry / billing / anti-bot deps: the exact-DOMAIN sentry rules missed the
+# *.ingest.us.sentry.io hosts observed leaking to the default Proxy (Hong Kong
+# exit) in the 2026-10-02 suspension audit. Suffixes, not exact matches.
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.site
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN,servd-anthropic-website.b-cdn.net
