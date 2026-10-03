@@ -1,7 +1,12 @@
 # NAME: AI Google
 # AUTHOR: ben
-# UPDATED: 2026-10-02
+# UPDATED: 2026-10-03
 # NOTE: Google AI products. Policy: AI-Google (the same exit as the rest of Google). Placed ahead of ai.list.
+
+# Google Fi（美国运营商账号，地区敏感）：显式钉在美国出口，不依赖 blackmatrix7 Google.list 的覆盖
+DOMAIN,fi.google.com
+DOMAIN,projectfi.google.com
+DOMAIN,jibe.google.com
 
 DOMAIN-SUFFIX,ai.studio
 DOMAIN,ai.google.dev
