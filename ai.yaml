@@ -33,6 +33,9 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claude.app
+  - DOMAIN-SUFFIX,claudemcpcontent.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN-SUFFIX,ai.studio
@@ -70,6 +73,7 @@ payload:
   - DOMAIN,apple-carry-relay.cloudflare.com
   - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,api-siri-prod.apple.com
+  - DOMAIN,accounts.spacex.ai
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grokusercontent.com
