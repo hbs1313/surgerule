@@ -78,10 +78,10 @@ DOMAIN,cp4.cloudflare.com
 DOMAIN,apple-relay.apple.com
 
 # User-requested supplemental Apple endpoints; not all are AI-specific.
-DOMAIN,gateway.icloud.com
 DOMAIN,seed.siri.apple.com
-DOMAIN,probe.icloud.com
-DOMAIN,metrics.icloud.com
+# Additional Siri hosts observed in Office traffic statistics.
+DOMAIN,seed-probe.siri.apple.com
+DOMAIN,seed-petropluvialis.siri.apple.com
 DOMAIN,apple-relay.mask.apple-dns.net
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-api.fe2.apple-dns.net
