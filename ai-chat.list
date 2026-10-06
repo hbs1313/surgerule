@@ -1,7 +1,7 @@
 # NAME: AI Chat
 # AUTHOR: ben
 # UPDATED: 2026-10-02
-# NOTE: ChatGPT / Claude and their content, telemetry, billing and anti-bot dependencies. Policy: AI-Chat (one fixed exit). Placed ahead of ai.list.
+# NOTE: ChatGPT and its dependencies. Claude uses ai-claude.list placed first.
 
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -40,13 +40,4 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN,rum.browser-intake-datadoghq.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,clau.de
-DOMAIN-SUFFIX,claude.app
-DOMAIN-SUFFIX,claude.site
-DOMAIN-SUFFIX,claudemcpcontent.com
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-KEYWORD,openai

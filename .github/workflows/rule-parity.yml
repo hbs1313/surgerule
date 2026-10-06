@@ -1,0 +1,14 @@
+name: Rule parity
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sh scripts/sync-yaml.sh
+      - run: |
+          git diff --exit-code -- '*.yaml'
+          test -z "$(git ls-files --others --exclude-standard -- '*.yaml')"
+          python3 -c 'import json,pathlib; m=json.load(open("routing.json")); assert len({x[0] for x in m["rules"]})==len(m["rules"]); assert all(pathlib.Path(x[0]+".list").exists() for x in m["rules"])'

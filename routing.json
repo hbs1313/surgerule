@@ -1,0 +1,15 @@
+{
+  "description": "Ordered shared business rules. Credentials and private management routes are not public.",
+  "rules": [
+    ["ai-apple", "AI-Apple"],
+    ["ai-claude", "AI-Claude"],
+    ["ai-chat", "AI-OpenAI"],
+    ["ai-google", "AI-Google"],
+    ["ai", "AI"],
+    ["us", "AI"],
+    ["ben", "Work-US"],
+    ["video-proxy", "Proxy"],
+    ["twitter", "Work-US"],
+    ["mmc", "Work-US"]
+  ]
+}

@@ -3,7 +3,7 @@ set -eu
 
 cd "$(dirname "$0")/.."
 
-for base in ai ben capcut mmc mmcdirect twitter ziniao; do
+for base in ai ai-apple ai-claude ai-chat ai-google us video-proxy ben capcut mmc mmcdirect twitter ziniao; do
   tmp_file=$(mktemp)
   {
     printf '%s\n' 'payload:'
