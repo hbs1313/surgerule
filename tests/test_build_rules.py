@@ -159,7 +159,11 @@ class RuleTests(unittest.TestCase):
                         (kind == 'DOMAIN-SUFFIX' and (host == value or host.endswith('.' + value))) or
                         (kind == 'DOMAIN-KEYWORD' and value in host)):
                         return policy
-        for host, policy in {'claude.ai': 'AI-Claude', 'clau.de': 'AI-Claude', 'chatgpt.com': 'AI-OpenAI', 'gemini.google.com': 'AI-Google', 'grok.com': 'AI', 'video.twimg.com': 'Proxy', 'pbs.twimg.com': 'Work-US', 'challenges.cloudflare.com': 'AI-Claude', 'cloudflare.com': 'Work-US', 'apple-relay.cloudflare.com': 'AI-Apple'}.items():
+        for host, policy in {
+            'browser-intake-us5-datadoghq.com': 'AI-Claude',
+            'http-intake.logs.us5.datadoghq.com': 'AI-Claude',
+            'claude.ai': 'AI-Claude', 'clau.de': 'AI-Claude', 'chatgpt.com': 'AI-OpenAI', 'gemini.google.com': 'AI-Google', 'grok.com': 'AI', 'video.twimg.com': 'Proxy', 'pbs.twimg.com': 'Work-US', 'challenges.cloudflare.com': 'AI-Claude', 'cloudflare.com': 'Work-US', 'apple-relay.cloudflare.com': 'AI-Apple'
+        }.items():
             with self.subTest(host=host):
                 self.assertEqual(first_policy(host), policy)
 

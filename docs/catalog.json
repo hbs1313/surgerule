@@ -20,12 +20,12 @@
       "mihomo": "full",
       "description": "Claude 及共享依赖，优先于 OpenAI",
       "source": "ai-claude.list",
-      "surge_rules": 24,
+      "surge_rules": 26,
       "mihomo_file": "ai-claude.yaml",
-      "mihomo_rules": 24,
+      "mihomo_rules": 26,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "8b219a4190ba68cad23846e8a35e31327ae29507052eedb3e084e171a43600fa"
+      "active_rules_sha256": "1048e70bffdc82438a382921f5bffa593c4411e3951f3e5a4f4037f6c88131cc"
     },
     {
       "name": "ai-chat",

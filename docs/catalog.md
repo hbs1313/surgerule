@@ -5,7 +5,7 @@
 | 列表 | 分类 | Surge 条数 | Mihomo 条数 | 兼容性 | 用途 |
 |---|---|---:|---:|---|---|
 | [ai-apple](../ai-apple.list) | ai | 19 | 19 | 完整 | Apple Intelligence、Siri 和相关中继 |
-| [ai-claude](../ai-claude.list) | ai | 24 | 24 | 完整 | Claude 及共享依赖，优先于 OpenAI |
+| [ai-claude](../ai-claude.list) | ai | 26 | 26 | 完整 | Claude 及共享依赖，优先于 OpenAI |
 | [ai-chat](../ai-chat.list) | ai | 35 | 35 | 完整 | OpenAI / ChatGPT 及依赖 |
 | [ai-google](../ai-google.list) | ai | 20 | 20 | 完整 | Google AI 和已指定的身份敏感业务 |
 | [ai](../ai.list) | ai | 113 | 113 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |

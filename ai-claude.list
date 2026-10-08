@@ -1,6 +1,6 @@
 # NAME: Claude
 # AUTHOR: ben
-# UPDATED: 2026-10-04
+# UPDATED: 2026-10-07
 # Dedicated Claude policy; place before ai-chat.list and ai.list.
 # Shared dependencies below also affect other apps using these domains.
 DOMAIN-SUFFIX,anthropic.com
@@ -28,3 +28,6 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN,rum.browser-intake-datadoghq.com
+# Optional Claude Code operational telemetry (shared hosts).
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
