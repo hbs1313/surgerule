@@ -1,0 +1,9 @@
+payload:
+  - "DOMAIN-SUFFIX,work.weixin.qq.com"
+  - "DOMAIN-SUFFIX,qyapi.weixin.qq.com"
+  - "DOMAIN-SUFFIX,qy.weixin.qq.com"
+  - "DOMAIN-SUFFIX,work.wechat.com"
+  - "DOMAIN-SUFFIX,qpic.cn"
+  - "DOMAIN-SUFFIX,qlogo.cn"
+  - "DOMAIN-SUFFIX,wxwork.qq.com"
+  - "DOMAIN-SUFFIX,imunion.weixin.qq.com"

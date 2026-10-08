@@ -1,10 +1,10 @@
 payload:
-  - DOMAIN-SUFFIX,gumroad.com
-  - DOMAIN-SUFFIX,co.il
-  - DOMAIN-SUFFIX,robinhood.com
-  - DOMAIN-SUFFIX,datadoghq.com
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.eu
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.us
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.us3
-  - DOMAIN-SUFFIX,browser-intake-datadoghq.us5
+  - "DOMAIN-SUFFIX,gumroad.com"
+  - "DOMAIN-SUFFIX,co.il"
+  - "DOMAIN-SUFFIX,robinhood.com"
+  - "DOMAIN-SUFFIX,datadoghq.com"
+  - "DOMAIN-SUFFIX,browser-intake-datadoghq.com"
+  - "DOMAIN-SUFFIX,browser-intake-datadoghq.eu"
+  - "DOMAIN-SUFFIX,browser-intake-datadoghq.us"
+  - "DOMAIN-SUFFIX,browser-intake-datadoghq.us3"
+  - "DOMAIN-SUFFIX,browser-intake-datadoghq.us5"

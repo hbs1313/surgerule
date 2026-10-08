@@ -7,8 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: sh scripts/sync-yaml.sh
-      - run: |
-          git diff --exit-code -- '*.yaml'
-          test -z "$(git ls-files --others --exclude-standard -- '*.yaml')"
-          python3 -c 'import json,pathlib; m=json.load(open("routing.json")); assert len({x[0] for x in m["rules"]})==len(m["rules"]); assert all(pathlib.Path(x[0]+".list").exists() for x in m["rules"])'
+      - name: Validate source syntax and every generated artifact (read-only)
+        run: python3 scripts/build-rules.py --check
+      - name: Test compatibility, priorities and generation guards
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v

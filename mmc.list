@@ -1,7 +1,7 @@
 # NAME: MMC Proxy
 # AUTHOR: ben
 # UPDATED: 2026-07-29
-# NOTE: Custom services that should use the general Proxy policy.
+# NOTE: Custom services bound to Work-US in routing.json; AI rules take precedence.
 
 # Network and proxy services
 DOMAIN-SUFFIX,aifish.io

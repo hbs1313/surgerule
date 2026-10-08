@@ -1,4 +1,4 @@
-# 屏蔽微信相关域名
+# 微信相关匹配条件；不自带屏蔽或放行策略，由调用端指定。
 # UPDATED: 2026-07-29
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,dldir1.qq.com
