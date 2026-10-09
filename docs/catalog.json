@@ -176,12 +176,12 @@
       "mihomo": "full",
       "description": "本地直连例外；不要整表接管到境外 Hub",
       "source": "mmcdirect.list",
-      "surge_rules": 77,
+      "surge_rules": 74,
       "mihomo_file": "mmcdirect.yaml",
-      "mihomo_rules": 77,
+      "mihomo_rules": 74,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "2ebc829b17d873e8f9f924b7742c65fe3d912ad2269dd6d864e92aedab24c54a"
+      "active_rules_sha256": "e5f57d35f19fbefe68b9a1829d9f016486925fc5a3d73ea485716cef6efcb9ac"
     },
     {
       "name": "capcut",

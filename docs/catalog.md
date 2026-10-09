@@ -17,7 +17,7 @@
 | [proxy](../proxy.list) | proxy | 13 | 13 | 完整 | 普通代理例外；未纳入共享业务顺序 |
 | [tv](../tv.list) | proxy | 25 | 25 | 完整 | 电视、媒体元数据和抓取服务 |
 | [ziniao](../ziniao.list) | client-direct | 12 | 12 | 完整 | 紫鸟客户端与服务；默认留在本地处理 |
-| [mmcdirect](../mmcdirect.list) | client-direct | 77 | 77 | 完整 | 本地直连例外；不要整表接管到境外 Hub |
+| [mmcdirect](../mmcdirect.list) | client-direct | 74 | 74 | 完整 | 本地直连例外；不要整表接管到境外 Hub |
 | [capcut](../capcut.list) | client-direct | 10 | 10 | 完整 | 剪映及字节媒体端点 |
 | [wechat](../wechat.list) | client-direct | 344 | 342 | 部分：USER-AGENT 留在 Surge | 微信域名/IP/ASN；2 条 USER-AGENT 仅 Surge 可用 |
 | [wecom](../wecom.list) | client-direct | 8 | 8 | 完整 | 企业微信端点 |

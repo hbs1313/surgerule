@@ -34,14 +34,15 @@ DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 
 # Financial, government, and regional services
-DOMAIN-KEYWORD,binance
+# 2026-10-09 移出 binance(KEYWORD) / mercuryo.io / polymarket.com：大陆直连被 SNI/网络阻断（0.1–0.4s 立即失败），
+# 留在这里等于永久失效。移除后按普通境外流量走代理（Surge：FINAL→入口→中心 MATCH,HK；手机：FINAL→Proxy→香港线路）。
+# 依据 cc-network/proposals/amazon-dns-monitor-livecheck-20261009.md §6。amazon-adsystem.com 保留：其真实子域
+# （c./s.amazon-adsystem.com）大陆直连可用，只有 apex 不响应，属探针假阳性。
 DOMAIN-SUFFIX,cbp.gov
 DOMAIN-SUFFIX,citylink.com.hk
 DOMAIN-SUFFIX,europapa.com
 DOMAIN-SUFFIX,gouv.fr
 DOMAIN-SUFFIX,hsbc.com.hk
-DOMAIN-SUFFIX,mercuryo.io
-DOMAIN-SUFFIX,polymarket.com
 
 # Custom direct services
 DOMAIN-SUFFIX,aiuys.com
