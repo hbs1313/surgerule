@@ -98,12 +98,12 @@
       "mihomo": "full",
       "description": "业务、网络及 SaaS 站点，沿用 Work-US",
       "source": "mmc.list",
-      "surge_rules": 48,
+      "surge_rules": 47,
       "mihomo_file": "mmc.yaml",
-      "mihomo_rules": 48,
+      "mihomo_rules": 47,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "f7174eeb98c26e980193c072ca60c294d25519a23331644927b9ac6c776a9edb"
+      "active_rules_sha256": "3dbfe3300037598f64265486ad57a63176101a4f82966802d2d67928cae8a9d3"
     },
     {
       "name": "twitter",
@@ -137,12 +137,12 @@
       "mihomo": "full",
       "description": "普通代理例外；未纳入共享业务顺序",
       "source": "proxy.list",
-      "surge_rules": 13,
+      "surge_rules": 12,
       "mihomo_file": "proxy.yaml",
-      "mihomo_rules": 13,
+      "mihomo_rules": 12,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "41f309ad21d64ebfaf250abcac9d72c8137c0361a6209c3d2229e7c5553926ee"
+      "active_rules_sha256": "6dbf8e4bef3d752aa473721111ce14ddcca332ea1af971c0949c8ccd89d235c2"
     },
     {
       "name": "tv",
