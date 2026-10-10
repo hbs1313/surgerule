@@ -124,8 +124,8 @@
     },
     "agg-workus": {
       "category": "work-us",
-      "mihomo": "partial",
-      "description": "生成：Adobe/LinkedIn/Reddit/Shopify/TikTok(Semporia+bm7)/TruthSocial 聚合（Work-US）"
+      "mihomo": "full",
+      "description": "生成：Adobe/LinkedIn/Reddit/Shopify/TruthSocial 聚合（Work-US；TikTok 因网关侧折叠到入口而单独引用上游）"
     },
     "agg-workus-nr": {
       "category": "work-us",

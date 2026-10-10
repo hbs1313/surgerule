@@ -35,11 +35,14 @@ AGGREGATES = {
     'agg-proxy': ['AppleNews', 'AppleTV', 'Bing', 'Discord', 'Disney', 'Docker', 'GitHub',
                   'Netflix', 'Notion', 'OneDrive', 'PayPal', 'Pinterest', 'PlayStation', 'Telegram'],
     'agg-google': ['Gemini', 'Google', 'GoogleVoice', 'YouTube'],
-    'agg-workus': ['Adobe', 'LinkedIn', 'Reddit', 'Shopify', 'TikTok', 'TruthSocial'],
+    # TikTok 不能并进来：网关侧生成器 (home/office-smart-pilot.py 的 covered_work) 会把
+    # TikTok.list 折到入口，而本组其它成员保持 Work-US —— 同一个聚合表在网关与手机上
+    # 目标不一致，故 TikTok 两条（bm7 + Semporia）继续单独引用上游。
+    'agg-workus': ['Adobe', 'LinkedIn', 'Reddit', 'Shopify', 'TruthSocial'],
     'agg-workus-nr': ['Facebook', 'Instagram'],
     'agg-direct': ['Apple', 'AppStore', 'iCloud', 'Speedtest'],
 }
-EXTRA_SEMP = {'agg-workus': 1}  # Semporia TikTok-unlock rides the Work-US aggregate
+EXTRA_SEMP = {}  # Semporia's TikTok-unlock stays a standalone upstream reference
 # Vendored verbatim from ruleset.skk.moe (no version in its URL, so it cannot be pinned):
 # skk source path -> repo file
 VENDOR = {

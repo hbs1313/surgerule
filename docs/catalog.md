@@ -28,7 +28,7 @@
 | [zhuli](../zhuli.list) | client-source | 3 | 0 | 仅本地源地址，不生成 Hub 规则 | 助理设备源 IP，只在本地网关使用 |
 | [agg-proxy](../agg-proxy.list) | proxy | 1766 | 1749 | 部分：USER-AGENT 留在 Surge | 生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类 |
 | [agg-google](../agg-google.list) | ai | 903 | 888 | 部分：USER-AGENT 留在 Surge | 生成：Google/YouTube/Gemini/GoogleVoice 聚合（网关→入口、手机→AI-Google） |
-| [agg-workus](../agg-workus.list) | work-us | 201 | 199 | 部分：USER-AGENT 留在 Surge | 生成：Adobe/LinkedIn/Reddit/Shopify/TikTok(Semporia+bm7)/TruthSocial 聚合（Work-US） |
+| [agg-workus](../agg-workus.list) | work-us | 167 | 167 | 完整 | 生成：Adobe/LinkedIn/Reddit/Shopify/TruthSocial 聚合（Work-US；TikTok 因网关侧折叠到入口而单独引用上游） |
 | [agg-workus-nr](../agg-workus-nr.list) | work-us | 571 | 571 | 完整 | 生成：Facebook/Instagram 聚合（Work-US, no-resolve；两者带 IP 规则故单独一组） |
 | [agg-direct](../agg-direct.list) | client-direct | 127 | 90 | 部分：USER-AGENT 留在 Surge | 生成：Apple/AppStore/iCloud/Speedtest 聚合（DIRECT） |
 | [skk-microsoft](../skk-microsoft.list) | proxy | 84 | 84 | 完整 | 收编自 ruleset.skk.moe non_ip/microsoft.conf（AGPL-3.0） |

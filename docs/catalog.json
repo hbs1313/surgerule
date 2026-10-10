@@ -329,18 +329,15 @@
     {
       "name": "agg-workus",
       "category": "work-us",
-      "mihomo": "partial",
-      "description": "生成：Adobe/LinkedIn/Reddit/Shopify/TikTok(Semporia+bm7)/TruthSocial 聚合（Work-US）",
+      "mihomo": "full",
+      "description": "生成：Adobe/LinkedIn/Reddit/Shopify/TruthSocial 聚合（Work-US；TikTok 因网关侧折叠到入口而单独引用上游）",
       "source": "agg-workus.list",
-      "surge_rules": 201,
+      "surge_rules": 167,
       "mihomo_file": "agg-workus.yaml",
-      "mihomo_rules": 199,
-      "excluded_types": [
-        "PROCESS-NAME",
-        "USER-AGENT"
-      ],
-      "excluded_count": 2,
-      "active_rules_sha256": "083495b686eb890d8095a5109043945a17f7b2a19fe61f79be018b33fda34ce0"
+      "mihomo_rules": 167,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "970edb4dea9dabab8573379d8ef92e868ba8abdf68ec786e2cdcaec336526c1a"
     },
     {
       "name": "agg-workus-nr",
