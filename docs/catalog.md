@@ -7,11 +7,11 @@
 | [ai-apple](../ai-apple.list) | ai | 19 | 19 | 完整 | Apple Intelligence、Siri 和相关中继 |
 | [ai-claude](../ai-claude.list) | ai | 26 | 26 | 完整 | Claude 及共享依赖，优先于 OpenAI |
 | [ai-chat](../ai-chat.list) | ai | 35 | 35 | 完整 | OpenAI / ChatGPT 及依赖 |
-| [ai-google](../ai-google.list) | ai | 20 | 20 | 完整 | Google AI 和已指定的身份敏感业务 |
+| [ai-google](../ai-google.list) | ai | 21 | 21 | 完整 | Google AI 和已指定的身份敏感业务 |
 | [ai](../ai.list) | ai | 113 | 113 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |
 | [us](../us.list) | ai | 10 | 10 | 完整 | 沿用 AI 组的美国业务例外 |
-| [ben](../ben.list) | work-us | 59 | 59 | 完整 | 个人及业务站点，沿用 Work-US |
-| [mmc](../mmc.list) | work-us | 47 | 47 | 完整 | 业务、网络及 SaaS 站点，沿用 Work-US |
+| [ben](../ben.list) | work-us | 56 | 56 | 完整 | 个人及业务站点，沿用 Work-US |
+| [mmc](../mmc.list) | work-us | 46 | 46 | 完整 | 业务、网络及 SaaS 站点，沿用 Work-US |
 | [twitter](../twitter.list) | ai | 32 | 32 | 完整 | X / Twitter 账号、API 与图片，跟固定 AI 落地；大流量视频由 video-proxy 先匹配 |
 | [video-proxy](../video-proxy.list) | proxy | 3 | 3 | 完整 | X 媒体例外，必须位于 twitter 之前 |
 | [proxy](../proxy.list) | proxy | 12 | 12 | 完整 | 普通代理例外；未纳入共享业务顺序 |

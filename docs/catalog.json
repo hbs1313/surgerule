@@ -46,12 +46,12 @@
       "mihomo": "full",
       "description": "Google AI 和已指定的身份敏感业务",
       "source": "ai-google.list",
-      "surge_rules": 20,
+      "surge_rules": 21,
       "mihomo_file": "ai-google.yaml",
-      "mihomo_rules": 20,
+      "mihomo_rules": 21,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "51894b1dd581b954c9a6010a2e7bc27a2d130d40d7fce408561640a121004219"
+      "active_rules_sha256": "ec0c97350d0515756a4d976edc9e89db671e9e8928ed546cc48a4c07e49c6b06"
     },
     {
       "name": "ai",
@@ -85,12 +85,12 @@
       "mihomo": "full",
       "description": "个人及业务站点，沿用 Work-US",
       "source": "ben.list",
-      "surge_rules": 59,
+      "surge_rules": 56,
       "mihomo_file": "ben.yaml",
-      "mihomo_rules": 59,
+      "mihomo_rules": 56,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "1572d21dc1402a90df202b85a24b4aee460e6345b203c0451c6b3a80f11c0828"
+      "active_rules_sha256": "98a4cda934b5f7084234cd23d7925a181be471ba8f6576c3aa20ad8a69b68f75"
     },
     {
       "name": "mmc",
@@ -98,12 +98,12 @@
       "mihomo": "full",
       "description": "业务、网络及 SaaS 站点，沿用 Work-US",
       "source": "mmc.list",
-      "surge_rules": 47,
+      "surge_rules": 46,
       "mihomo_file": "mmc.yaml",
-      "mihomo_rules": 47,
+      "mihomo_rules": 46,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "3dbfe3300037598f64265486ad57a63176101a4f82966802d2d67928cae8a9d3"
+      "active_rules_sha256": "c1ad3ee0fbea09d5313f08f0512789d9662e3a08be5f00a7fd54ea4c066c2246"
     },
     {
       "name": "twitter",

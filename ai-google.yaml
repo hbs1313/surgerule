@@ -19,3 +19,4 @@ payload:
   - "DOMAIN,apis.google.com"
   - "DOMAIN-SUFFIX,usercontent.goog"
   - "DOMAIN-SUFFIX,antigravity-unleash.goog"
+  - "DOMAIN-SUFFIX,recaptcha.net"

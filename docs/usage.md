@@ -67,6 +67,21 @@ Hub 合并 [mihomo-shared.yaml](../examples/mihomo-shared.yaml) 的 providers �
 
 ## 4. 发布与回退
 
+每次改规则前把这几道门禁跑一遍（全部本地、不碰生产）：
+
+```sh
+sh scripts/sync-yaml.sh                              # 由 .list 生成 Mihomo yaml
+python3 -m unittest discover -s tests -p 'test_*.py' # 生成器/目录/兼容性约束，含重复归属门禁
+python3 scripts/build-rules.py --check               # 目录与绑定是否有陈旧项
+python3 scripts/build-agg.py --check                 # 聚合表是否与上游固定 SHA 漂移
+python3 scripts/audit-duplicates.py                  # 同一域名是否被两张表用不同策略认领
+```
+
+`audit-duplicates.py` 的判定口径：只有在**同一个消费文件内**、两张表给出不同策略时才算冲突
+（网关把 Proxy/AI 折成“入口”是有意设计，不参与比较）。声明式的分层（`LAYERS`，如
+`ai-claude.list ⊂ ai.list`）只断言“专用表在前”；跨 Claude/OpenAI 的共享 SaaS 在 `SHARED_SAAS`
+里逐条登记，新出现的重叠仍会报警。
+
 1. 改 `.list`，必要时改 `routing.json`；生成、测试、审阅 diff。
 2. 经授权提交、推送，并检查 CI 和 raw URL 可获取性。
 3. 另行部署生产引用：确认本地网关、Hub、手机需要的版本与绑定，不改变现有落地身份。

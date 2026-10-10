@@ -41,7 +41,6 @@ payload:
   - "DOMAIN-SUFFIX,nvidia.com"
   - "DOMAIN-SUFFIX,porkbun.com"
   - "DOMAIN-SUFFIX,pusher.com"
-  - "DOMAIN-SUFFIX,recaptcha.net"
   - "DOMAIN-SUFFIX,workers.dev"
   - "DOMAIN-SUFFIX,grammarly.io"
   - "DOMAIN-SUFFIX,vimeo.com"

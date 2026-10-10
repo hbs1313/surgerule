@@ -8,9 +8,6 @@
 #PROCESS-NAME,com.android.vending
 DOMAIN-SUFFIX,apple-relay.apple.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,mask-h2.icloud.com
-DOMAIN-SUFFIX,mask.apple-dns.net
-DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,co.us
 DOMAIN-SUFFIX,co.nz
 DOMAIN-SUFFIX,diabrowser.com
