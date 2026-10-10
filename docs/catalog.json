@@ -98,12 +98,12 @@
       "mihomo": "full",
       "description": "业务、网络及 SaaS 站点，沿用 Work-US",
       "source": "mmc.list",
-      "surge_rules": 46,
+      "surge_rules": 45,
       "mihomo_file": "mmc.yaml",
-      "mihomo_rules": 46,
+      "mihomo_rules": 45,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "c1ad3ee0fbea09d5313f08f0512789d9662e3a08be5f00a7fd54ea4c066c2246"
+      "active_rules_sha256": "376b4aaa5ff4fedd0904685c32775e0e943bb6a8a66e6d409a406fd9654f4d32"
     },
     {
       "name": "twitter",
@@ -137,12 +137,12 @@
       "mihomo": "full",
       "description": "普通代理例外；未纳入共享业务顺序",
       "source": "proxy.list",
-      "surge_rules": 12,
+      "surge_rules": 11,
       "mihomo_file": "proxy.yaml",
-      "mihomo_rules": 12,
+      "mihomo_rules": 11,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "6dbf8e4bef3d752aa473721111ce14ddcca332ea1af971c0949c8ccd89d235c2"
+      "active_rules_sha256": "4192e8a10d015926c57af0849dfedae7638fc7a422d065be23619b6afc7d9816"
     },
     {
       "name": "tv",
@@ -439,6 +439,19 @@
       ],
       "excluded_count": 2,
       "active_rules_sha256": "3259df806e03c69219f2081fe14e6c812ac2e40f5f10eef55a9164323aa95e6c"
+    },
+    {
+      "name": "oix-xjp",
+      "category": "dedicated",
+      "mihomo": "full",
+      "description": "oix 新加坡专用规则（seedhost 等）；不自动并入普通代理",
+      "source": "oix-xjp.list",
+      "surge_rules": 1,
+      "mihomo_file": "oix-xjp.yaml",
+      "mihomo_rules": 1,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "b4617f0d186690bdf1799bcffbd208677bda9516395a7940ca4fcf72b1098c02"
     }
   ]
 }
