@@ -11,6 +11,7 @@ policy AND the same RULE-SET flags. Concretely:
   * `agg-proxy.list`      Proxy (mobile) / 入口 (gateway); one flag set (extended-matching)
   * `agg-google.list`     AI-Google (mobile) / 入口 (gateway)
   * `agg-workus.list`     Work-US, extended-matching
+  * `agg-tiktok.list`     Work-US (mobile) / 入口 (gateway), extended-matching
   * `agg-workus-nr.list`  Work-US, no-resolve (Facebook/Instagram carry IP rules, so the flag matters)
   * `agg-direct.list`     DIRECT
 `no-resolve` on a list without IP rules is a no-op, so those lists can join the flag-compatible
@@ -35,14 +36,18 @@ AGGREGATES = {
     'agg-proxy': ['AppleNews', 'AppleTV', 'Bing', 'Discord', 'Disney', 'Docker', 'GitHub',
                   'Netflix', 'Notion', 'OneDrive', 'PayPal', 'Pinterest', 'PlayStation', 'Telegram'],
     'agg-google': ['Gemini', 'Google', 'GoogleVoice', 'YouTube'],
-    # TikTok 不能并进来：网关侧生成器 (home/office-smart-pilot.py 的 covered_work) 会把
-    # TikTok.list 折到入口，而本组其它成员保持 Work-US —— 同一个聚合表在网关与手机上
-    # 目标不一致，故 TikTok 两条（bm7 + Semporia）继续单独引用上游。
+    # TikTok 不能并进 agg-workus：网关侧生成器 (home/office-smart-pilot.py 的 covered_work)
+    # 会把 TikTok 折到入口，而本组其它成员保持 Work-US —— 同一个聚合表在两个消费侧目标不同。
+    # 它自己成组（bm7 + Semporia 都是 Work-US/入口 + extended-matching，两边一致）。
     'agg-workus': ['Adobe', 'LinkedIn', 'Reddit', 'Shopify', 'TruthSocial'],
     'agg-workus-nr': ['Facebook', 'Instagram'],
     'agg-direct': ['Apple', 'AppStore', 'iCloud', 'Speedtest'],
+    'agg-tiktok': ['TikTok'],
 }
-EXTRA_SEMP = {}  # Semporia's TikTok-unlock stays a standalone upstream reference
+# Aggregates fed by more than one upstream repository, in precedence order.
+EXTRA_SOURCES = {
+    'agg-tiktok': [('Semporia/TikTok-Unlock', SEMP)],
+}
 # Vendored verbatim from ruleset.skk.moe (no version in its URL, so it cannot be pinned):
 # skk source path -> repo file
 VENDOR = {
@@ -92,9 +97,7 @@ def main():
     args = ap.parse_args()
     report = {'aggregates': {}, 'vendored': {}, 'drift': []}
     for name, lists in AGGREGATES.items():
-        sources = [(l, BM7 % (l, l)) for l in lists]
-        if name in EXTRA_SEMP:
-            sources.append(('Semporia/TikTok-Unlock', SEMP))
+        sources = [(l, BM7 % (l, l)) for l in lists] + EXTRA_SOURCES.get(name, [])
         text, per_source = build_aggregate(name, sources)
         target = ROOT / (name + '.list')
         report['aggregates'][name] = {'rules': len(rules_of(text)), 'sources': len(sources),

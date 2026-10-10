@@ -156,6 +156,11 @@
       "category": "client-direct",
       "mihomo": "full",
       "description": "收编自 ruleset.skk.moe domainset/apple_cdn.conf（AGPL-3.0；bare domain 已转 DOMAIN-SUFFIX）"
+    },
+    "agg-tiktok": {
+      "category": "work-us",
+      "mihomo": "partial",
+      "description": "生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US）"
     }
   },
   "rules": [

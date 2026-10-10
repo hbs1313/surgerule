@@ -423,6 +423,22 @@
       "excluded_types": [],
       "excluded_count": 0,
       "active_rules_sha256": "31a7b5fe94071d955a5c4f1d7d231627518d23e62ecf1c3b18e1c5050818ea8b"
+    },
+    {
+      "name": "agg-tiktok",
+      "category": "work-us",
+      "mihomo": "partial",
+      "description": "生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US）",
+      "source": "agg-tiktok.list",
+      "surge_rules": 34,
+      "mihomo_file": "agg-tiktok.yaml",
+      "mihomo_rules": 32,
+      "excluded_types": [
+        "PROCESS-NAME",
+        "USER-AGENT"
+      ],
+      "excluded_count": 2,
+      "active_rules_sha256": "3259df806e03c69219f2081fe14e6c812ac2e40f5f10eef55a9164323aa95e6c"
     }
   ]
 }
