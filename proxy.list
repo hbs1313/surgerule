@@ -2,6 +2,7 @@
 # AUTHOR: ben
 # UPDATED: 2026-10-02
 # NOTE: Single sites through the general proxy. Policy: Proxy.
+# 2026-10-10：内容仅注记调整，用于触发规则表重建（无路由变化）。
 
 DOMAIN-SUFFIX,dler.io
 DOMAIN-SUFFIX,astrill.com
