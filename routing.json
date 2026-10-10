@@ -161,11 +161,6 @@
       "category": "work-us",
       "mihomo": "partial",
       "description": "生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US）"
-    },
-    "oix-xjp": {
-      "category": "dedicated",
-      "mihomo": "full",
-      "description": "oix 新加坡专用规则（seedhost 等）；不自动并入普通代理"
     }
   },
   "rules": [
