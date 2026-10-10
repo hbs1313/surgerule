@@ -292,6 +292,140 @@
       ],
       "excluded_count": 3,
       "active_rules_sha256": "3277c313cb1fe42b730fb8c904470f1acb091732aab5bfda4fe3a828029ba2d2"
+    },
+    {
+      "name": "agg-proxy",
+      "category": "proxy",
+      "mihomo": "partial",
+      "description": "生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类",
+      "source": "agg-proxy.list",
+      "surge_rules": 1766,
+      "mihomo_file": "agg-proxy.yaml",
+      "mihomo_rules": 1749,
+      "excluded_types": [
+        "OR",
+        "PROCESS-NAME",
+        "USER-AGENT"
+      ],
+      "excluded_count": 17,
+      "active_rules_sha256": "e109af3fe51df1189d6147b7f849e7969f235c35d7654024ee19bf1c002db8a1"
+    },
+    {
+      "name": "agg-google",
+      "category": "ai",
+      "mihomo": "partial",
+      "description": "生成：Google/YouTube/Gemini/GoogleVoice 聚合（网关→入口、手机→AI-Google）",
+      "source": "agg-google.list",
+      "surge_rules": 903,
+      "mihomo_file": "agg-google.yaml",
+      "mihomo_rules": 888,
+      "excluded_types": [
+        "PROCESS-NAME",
+        "USER-AGENT"
+      ],
+      "excluded_count": 15,
+      "active_rules_sha256": "66e195b72d6d64c96ed019834cf603b76706a18c6d3231e5434a40358cc79a0e"
+    },
+    {
+      "name": "agg-workus",
+      "category": "work-us",
+      "mihomo": "partial",
+      "description": "生成：Adobe/LinkedIn/Reddit/Shopify/TikTok(Semporia+bm7)/TruthSocial 聚合（Work-US）",
+      "source": "agg-workus.list",
+      "surge_rules": 201,
+      "mihomo_file": "agg-workus.yaml",
+      "mihomo_rules": 199,
+      "excluded_types": [
+        "PROCESS-NAME",
+        "USER-AGENT"
+      ],
+      "excluded_count": 2,
+      "active_rules_sha256": "083495b686eb890d8095a5109043945a17f7b2a19fe61f79be018b33fda34ce0"
+    },
+    {
+      "name": "agg-workus-nr",
+      "category": "work-us",
+      "mihomo": "full",
+      "description": "生成：Facebook/Instagram 聚合（Work-US, no-resolve；两者带 IP 规则故单独一组）",
+      "source": "agg-workus-nr.list",
+      "surge_rules": 571,
+      "mihomo_file": "agg-workus-nr.yaml",
+      "mihomo_rules": 571,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "8b97f4ea3c0bf9fff7e95beabd46bd824d33978f390ee2f77f8b4c334d2e2188"
+    },
+    {
+      "name": "agg-direct",
+      "category": "client-direct",
+      "mihomo": "partial",
+      "description": "生成：Apple/AppStore/iCloud/Speedtest 聚合（DIRECT）",
+      "source": "agg-direct.list",
+      "surge_rules": 127,
+      "mihomo_file": "agg-direct.yaml",
+      "mihomo_rules": 90,
+      "excluded_types": [
+        "PROCESS-NAME",
+        "USER-AGENT"
+      ],
+      "excluded_count": 37,
+      "active_rules_sha256": "36813bccb46c87c73ee2c93d7701309cf6df6af7284bfe96c786fa4509609849"
+    },
+    {
+      "name": "skk-microsoft",
+      "category": "proxy",
+      "mihomo": "full",
+      "description": "收编自 ruleset.skk.moe non_ip/microsoft.conf（AGPL-3.0）",
+      "source": "skk-microsoft.list",
+      "surge_rules": 84,
+      "mihomo_file": "skk-microsoft.yaml",
+      "mihomo_rules": 84,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "f1c1fa69e35e64a6eec085fd9abea5a0fe65ec86f5b409cca4779cdadfd3a372"
+    },
+    {
+      "name": "skk-microsoft-cdn",
+      "category": "client-direct",
+      "mihomo": "partial",
+      "description": "收编自 ruleset.skk.moe non_ip/microsoft_cdn.conf（AGPL-3.0；URL-REGEX 仅 Surge）",
+      "source": "skk-microsoft-cdn.list",
+      "surge_rules": 54,
+      "mihomo_file": "skk-microsoft-cdn.yaml",
+      "mihomo_rules": 52,
+      "excluded_types": [
+        "URL-REGEX"
+      ],
+      "excluded_count": 2,
+      "active_rules_sha256": "970e0dfbc43a3e1bac7066fe3a3bde106731e884eedc101089e57febdb4bcb51"
+    },
+    {
+      "name": "skk-apple-services",
+      "category": "client-direct",
+      "mihomo": "partial",
+      "description": "收编自 ruleset.skk.moe non_ip/apple_services.conf（AGPL-3.0；PROCESS-NAME 仅 Surge）",
+      "source": "skk-apple-services.list",
+      "surge_rules": 26,
+      "mihomo_file": "skk-apple-services.yaml",
+      "mihomo_rules": 18,
+      "excluded_types": [
+        "PROCESS-NAME"
+      ],
+      "excluded_count": 8,
+      "active_rules_sha256": "0038419ea4e910ab53bcc3c6d76cfd86e331fb1934e180b5d745e6a6e4eafce7"
+    },
+    {
+      "name": "skk-apple-cdn",
+      "category": "client-direct",
+      "mihomo": "full",
+      "description": "收编自 ruleset.skk.moe domainset/apple_cdn.conf（AGPL-3.0；bare domain 已转 DOMAIN-SUFFIX）",
+      "source": "skk-apple-cdn.list",
+      "surge_rules": 160,
+      "mihomo_file": "skk-apple-cdn.yaml",
+      "mihomo_rules": 160,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "31a7b5fe94071d955a5c4f1d7d231627518d23e62ecf1c3b18e1c5050818ea8b"
     }
   ]
 }

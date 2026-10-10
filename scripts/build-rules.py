@@ -11,7 +11,9 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = 'https://raw.githubusercontent.com/hbs1313/surgerule/main/'
 PORTABLE = {'DOMAIN', 'DOMAIN-SUFFIX', 'DOMAIN-KEYWORD', 'IP-CIDR', 'IP-CIDR6', 'IP-ASN'}
-SURGE_ONLY = {'USER-AGENT', 'SRC-IP'}
+SURGE_ONLY = {'USER-AGENT', 'SRC-IP', 'PROCESS-NAME', 'URL-REGEX'}
+# Composite logical rules keep the whole line: their value contains commas and parentheses.
+COMPOSITE = {'OR', 'AND', 'NOT'}
 CATEGORIES = {'ai', 'work-us', 'proxy', 'client-direct', 'dedicated', 'client-source'}
 
 
@@ -30,8 +32,18 @@ def read_rules(text, source):
         require('"' not in line and "'" not in line, f'{where}: quoted fields are outside the shared rule subset')
         parts = line.split(',')
         require(len(parts) >= 2 and all(p == p.strip() and p for p in parts), f'{where}: malformed fields')
-        kind, value = parts[:2]
+        kind = parts[0]
+        if kind in COMPOSITE:
+            # Surge-only logical rule; opaque to the portable subset, kept verbatim.
+            require(line not in rules, f'{where}: duplicate rule')
+            rules.append(line); continue
         require(kind in PORTABLE | SURGE_ONLY, f'{where}: unsupported rule type {kind}')
+        # Surge-only patterns may legitimately contain commas (e.g. a User-Agent string).
+        value = ','.join(parts[1:]) if kind in SURGE_ONLY else parts[1]
+        if kind in SURGE_ONLY:
+            require(not any(ord(c) < 32 for c in value), f'{where}: invalid pattern')
+            require(line not in rules, f'{where}: duplicate rule')
+            rules.append(line); continue
         if kind in {'IP-CIDR', 'IP-CIDR6', 'IP-ASN', 'SRC-IP'}:
             require(len(parts) in {2, 3} and (len(parts) == 2 or parts[2] == 'no-resolve'), f'{where}: unsupported IP options or embedded policy')
         else:
@@ -113,7 +125,13 @@ def compile_repository(root):
         if mode == 'full':
             require(not omitted, f'{name}: full parity cannot omit Surge-only rules')
         elif mode == 'partial':
-            require(portable and omitted and all(rule.startswith('USER-AGENT,') for rule in omitted), f'{name}: partial mode permits only explicit USER-AGENT omissions')
+            # A partial list may only omit rule types that have no portable equivalent: the
+            # Surge-only patterns below and composite logical rules.
+            # SRC-IP stays excluded: source-device routing must never be silently dropped.
+            omissible = (SURGE_ONLY | COMPOSITE) - {'SRC-IP'}
+            require(portable and omitted
+                    and all(rule.split(',', 1)[0] in omissible for rule in omitted),
+                    f'{name}: partial mode permits only documented Surge-only omissions')
         else:
             require(all(rule.startswith('SRC-IP,') for rule in rules), f'{name}: client-only mode is reserved for source-device routing')
         if mode != 'none':
