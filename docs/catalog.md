@@ -13,7 +13,7 @@
 | [ben](../ben.list) | work-us | 59 | 59 | 完整 | 个人及业务站点，沿用 Work-US |
 | [mmc](../mmc.list) | work-us | 48 | 48 | 完整 | 业务、网络及 SaaS 站点，沿用 Work-US |
 | [twitter](../twitter.list) | work-us | 32 | 32 | 完整 | X / Twitter；媒体例外需先匹配 |
-| [video-proxy](../video-proxy.list) | proxy | 2 | 2 | 完整 | X 媒体例外，必须位于 twitter 之前 |
+| [video-proxy](../video-proxy.list) | proxy | 3 | 3 | 完整 | X 媒体例外，必须位于 twitter 之前 |
 | [proxy](../proxy.list) | proxy | 13 | 13 | 完整 | 普通代理例外；未纳入共享业务顺序 |
 | [tv](../tv.list) | proxy | 25 | 25 | 完整 | 电视、媒体元数据和抓取服务 |
 | [ziniao](../ziniao.list) | client-direct | 12 | 12 | 完整 | 紫鸟客户端与服务；默认留在本地处理 |

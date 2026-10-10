@@ -1,3 +1,6 @@
 # X media follows the ordinary regional proxy, not Work-US.
 DOMAIN-SUFFIX,video.twimg.com
 DOMAIN-SUFFIX,pvideo.twimg.com
+# 2026-10-09：video-s 也是视频 CDN（此前落在 twitter.list，中心走 Work-US 的美国机房池），
+# 按要求并入本表：X 大流量视频统一走中心 Proxy（BAGE-HK / BAGE-JP 本机直出）。
+DOMAIN-SUFFIX,video-s.twimg.com

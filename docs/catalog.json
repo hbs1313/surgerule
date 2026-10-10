@@ -124,12 +124,12 @@
       "mihomo": "full",
       "description": "X 媒体例外，必须位于 twitter 之前",
       "source": "video-proxy.list",
-      "surge_rules": 2,
+      "surge_rules": 3,
       "mihomo_file": "video-proxy.yaml",
-      "mihomo_rules": 2,
+      "mihomo_rules": 3,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "71243a78bdc63f0ba93c15b81dc9818d6ab3805eb000bad472e5de6620de2850"
+      "active_rules_sha256": "8e148d412bbfae0ed0853ba04dd22c0f4599ee5187daf2ecff47671c136d7c1c"
     },
     {
       "name": "proxy",

@@ -1,3 +1,4 @@
 payload:
   - "DOMAIN-SUFFIX,video.twimg.com"
   - "DOMAIN-SUFFIX,pvideo.twimg.com"
+  - "DOMAIN-SUFFIX,video-s.twimg.com"
