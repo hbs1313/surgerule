@@ -72,12 +72,12 @@
       "mihomo": "full",
       "description": "沿用 AI 组的美国业务例外",
       "source": "us.list",
-      "surge_rules": 9,
+      "surge_rules": 10,
       "mihomo_file": "us.yaml",
-      "mihomo_rules": 9,
+      "mihomo_rules": 10,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "729c561aa3b35236e3b2d7d575481f67275caa38f69d41fa0579e7512afcb368"
+      "active_rules_sha256": "643368e624588b026bc3ab2429f0ef42bae57c3319d3c3bdaace27cf91289710"
     },
     {
       "name": "ben",

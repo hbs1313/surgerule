@@ -1,5 +1,6 @@
 payload:
   - "DOMAIN-SUFFIX,gumroad.com"
+  - "DOMAIN-SUFFIX,soladrive.com"
   - "DOMAIN-SUFFIX,co.il"
   - "DOMAIN-SUFFIX,robinhood.com"
   - "DOMAIN-SUFFIX,datadoghq.com"

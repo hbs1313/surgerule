@@ -9,7 +9,7 @@
 | [ai-chat](../ai-chat.list) | ai | 35 | 35 | 完整 | OpenAI / ChatGPT 及依赖 |
 | [ai-google](../ai-google.list) | ai | 20 | 20 | 完整 | Google AI 和已指定的身份敏感业务 |
 | [ai](../ai.list) | ai | 113 | 113 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |
-| [us](../us.list) | ai | 9 | 9 | 完整 | 沿用 AI 组的美国业务例外 |
+| [us](../us.list) | ai | 10 | 10 | 完整 | 沿用 AI 组的美国业务例外 |
 | [ben](../ben.list) | work-us | 59 | 59 | 完整 | 个人及业务站点，沿用 Work-US |
 | [mmc](../mmc.list) | work-us | 48 | 48 | 完整 | 业务、网络及 SaaS 站点，沿用 Work-US |
 | [twitter](../twitter.list) | work-us | 32 | 32 | 完整 | X / Twitter；媒体例外需先匹配 |
