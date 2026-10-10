@@ -107,9 +107,9 @@
     },
     {
       "name": "twitter",
-      "category": "work-us",
+      "category": "ai",
       "mihomo": "full",
-      "description": "X / Twitter；媒体例外需先匹配",
+      "description": "X / Twitter 账号、API 与图片，跟固定 AI 落地；大流量视频由 video-proxy 先匹配",
       "source": "twitter.list",
       "surge_rules": 32,
       "mihomo_file": "twitter.yaml",

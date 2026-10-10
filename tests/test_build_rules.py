@@ -130,7 +130,7 @@ class RuleTests(unittest.TestCase):
 
     def test_existing_manifest_order_and_policy_preserved(self):
         order = B['load_manifest'](ROOT)['rules']
-        self.assertEqual(order, [['ai-apple', 'AI-Apple'], ['ai-claude', 'AI-Claude'], ['ai-chat', 'AI-OpenAI'], ['ai-google', 'AI-Google'], ['ai', 'AI'], ['us', 'AI'], ['ben', 'Work-US'], ['video-proxy', 'Proxy'], ['twitter', 'Work-US'], ['mmc', 'Work-US']])
+        self.assertEqual(order, [['ai-apple', 'AI-Apple'], ['ai-claude', 'AI-Claude'], ['ai-chat', 'AI-OpenAI'], ['ai-google', 'AI-Google'], ['ai', 'AI'], ['us', 'AI'], ['ben', 'Work-US'], ['video-proxy', 'Proxy'], ['twitter', 'AI'], ['mmc', 'Work-US']])
 
     def test_generated_yaml_exactly_preserves_portable_rule_order(self):
         output = B['compile_repository'](ROOT)
@@ -162,7 +162,7 @@ class RuleTests(unittest.TestCase):
         for host, policy in {
             'browser-intake-us5-datadoghq.com': 'AI-Claude',
             'http-intake.logs.us5.datadoghq.com': 'AI-Claude',
-            'claude.ai': 'AI-Claude', 'clau.de': 'AI-Claude', 'chatgpt.com': 'AI-OpenAI', 'gemini.google.com': 'AI-Google', 'grok.com': 'AI', 'video.twimg.com': 'Proxy', 'pbs.twimg.com': 'Work-US', 'challenges.cloudflare.com': 'AI-Claude', 'cloudflare.com': 'Work-US', 'apple-relay.cloudflare.com': 'AI-Apple'
+            'claude.ai': 'AI-Claude', 'clau.de': 'AI-Claude', 'chatgpt.com': 'AI-OpenAI', 'gemini.google.com': 'AI-Google', 'grok.com': 'AI', 'video.twimg.com': 'Proxy', 'pbs.twimg.com': 'AI', 'challenges.cloudflare.com': 'AI-Claude', 'cloudflare.com': 'Work-US', 'apple-relay.cloudflare.com': 'AI-Apple'
         }.items():
             with self.subTest(host=host):
                 self.assertEqual(first_policy(host), policy)

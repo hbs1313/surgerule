@@ -80,5 +80,5 @@ rules:
   - "RULE-SET,canonical-us,AI"
   - "RULE-SET,canonical-ben,Work-US"
   - "RULE-SET,canonical-video-proxy,Proxy"
-  - "RULE-SET,canonical-twitter,Work-US"
+  - "RULE-SET,canonical-twitter,AI"
   - "RULE-SET,canonical-mmc,Work-US"

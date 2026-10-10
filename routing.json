@@ -10,7 +10,7 @@
     "us": {"category": "ai", "mihomo": "full", "description": "沿用 AI 组的美国业务例外"},
     "ben": {"category": "work-us", "mihomo": "full", "description": "个人及业务站点，沿用 Work-US"},
     "mmc": {"category": "work-us", "mihomo": "full", "description": "业务、网络及 SaaS 站点，沿用 Work-US"},
-    "twitter": {"category": "work-us", "mihomo": "full", "description": "X / Twitter；媒体例外需先匹配"},
+    "twitter": {"category": "ai", "mihomo": "full", "description": "X / Twitter 账号、API 与图片，跟固定 AI 落地；大流量视频由 video-proxy 先匹配"},
     "video-proxy": {"category": "proxy", "mihomo": "full", "description": "X 媒体例外，必须位于 twitter 之前"},
     "proxy": {"category": "proxy", "mihomo": "full", "description": "普通代理例外；未纳入共享业务顺序"},
     "tv": {"category": "proxy", "mihomo": "full", "description": "电视、媒体元数据和抓取服务"},
@@ -34,7 +34,7 @@
     ["us", "AI"],
     ["ben", "Work-US"],
     ["video-proxy", "Proxy"],
-    ["twitter", "Work-US"],
+    ["twitter", "AI"],
     ["mmc", "Work-US"]
   ]
 }
