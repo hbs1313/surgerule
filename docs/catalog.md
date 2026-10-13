@@ -8,7 +8,7 @@
 | [ai-claude](../ai-claude.list) | ai | 26 | 26 | 完整 | Claude 及共享依赖，优先于 OpenAI |
 | [ai-chat](../ai-chat.list) | ai | 35 | 35 | 完整 | OpenAI / ChatGPT 及依赖 |
 | [ai-google](../ai-google.list) | ai | 21 | 21 | 完整 | Google AI 和已指定的身份敏感业务 |
-| [ai](../ai.list) | ai | 113 | 113 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |
+| [ai](../ai.list) | ai | 115 | 115 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |
 | [us](../us.list) | ai | 10 | 10 | 完整 | 沿用 AI 组的美国业务例外 |
 | [ben](../ben.list) | work-us | 56 | 56 | 完整 | 个人及业务站点，沿用 Work-US |
 | [mmc](../mmc.list) | work-us | 45 | 45 | 完整 | 业务、网络及 SaaS 站点，沿用 Work-US |

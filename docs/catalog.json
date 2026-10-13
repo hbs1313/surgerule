@@ -59,12 +59,12 @@
       "mihomo": "full",
       "description": "其他 AI 与单组兼容列表；不是所有子表的完整并集",
       "source": "ai.list",
-      "surge_rules": 113,
+      "surge_rules": 115,
       "mihomo_file": "ai.yaml",
-      "mihomo_rules": 113,
+      "mihomo_rules": 115,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "20a515f1e860f3ffa123c40337159112e016c9de5c77a4add0521dc200703cd9"
+      "active_rules_sha256": "9d0714ae5390ebcfcc5cf0e6ff689570325b05235a0f80d9a9df8bc88b702ccf"
     },
     {
       "name": "us",

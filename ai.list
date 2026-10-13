@@ -1,6 +1,6 @@
 # NAME: AI Services
 # AUTHOR: ben
-# UPDATED: 2026-09-20
+# UPDATED: 2026-10-13
 # NOTE: Product domains plus exact vendor-documented dependencies.
 # Broad shared-platform suffixes, whole ASNs, and fixed IPs are excluded.
 
@@ -102,6 +102,11 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
+
+# OpenCode CLI: site/console/auth/Zen API and model catalog (models.opencode.ai, models.dev)
+# Provider APIs it calls are owned by their vendor sections (z.ai above; CN plans stay direct).
+DOMAIN-SUFFIX,opencode.ai
+DOMAIN-SUFFIX,models.dev
 
 # Shared authentication and anti-bot dependencies
 DOMAIN-SUFFIX,challenges.cloudflare.com
