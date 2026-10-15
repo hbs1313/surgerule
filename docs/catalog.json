@@ -264,6 +264,19 @@
       "active_rules_sha256": "bc16effc681021fb594184d74f9fd11e37f224571f28d9422ea7c81a2ccfcfdd"
     },
     {
+      "name": "usiptv",
+      "category": "dedicated",
+      "mihomo": "full",
+      "description": "美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT）",
+      "source": "usiptv.list",
+      "surge_rules": 95,
+      "mihomo_file": "usiptv.yaml",
+      "mihomo_rules": 95,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "53c49742cfb4ee6f754ce4b78cbd6691320963d3df294ab5c6393ce46f45a3b2"
+    },
+    {
       "name": "yy",
       "category": "client-source",
       "mihomo": "none",

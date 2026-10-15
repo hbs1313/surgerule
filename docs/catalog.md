@@ -24,6 +24,7 @@
 | [tvdirect](../tvdirect.list) | client-direct | 47 | 47 | 完整 | 直连媒体及 CDN 例外 |
 | [oix-hk](../oix-hk.list) | dedicated | 3 | 3 | 完整 | oix 香港专用规则；不自动并入普通代理 |
 | [spectrum](../spectrum.list) | dedicated | 6 | 6 | 完整 | Spectrum 账户及 CDN；出口由私有配置绑定 |
+| [usiptv](../usiptv.list) | dedicated | 95 | 95 | 完整 | 美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT） |
 | [yy](../yy.list) | client-source | 6 | 0 | 仅本地源地址，不生成 Hub 规则 | 运营设备源 IP，只在本地网关使用 |
 | [zhuli](../zhuli.list) | client-source | 3 | 0 | 仅本地源地址，不生成 Hub 规则 | 助理设备源 IP，只在本地网关使用 |
 | [agg-proxy](../agg-proxy.list) | proxy | 1766 | 1749 | 部分：USER-AGENT 留在 Surge | 生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类 |

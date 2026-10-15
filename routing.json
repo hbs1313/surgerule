@@ -102,6 +102,11 @@
       "mihomo": "full",
       "description": "Spectrum 账户及 CDN；出口由私有配置绑定"
     },
+    "usiptv": {
+      "category": "dedicated",
+      "mihomo": "full",
+      "description": "美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT）"
+    },
     "yy": {
       "category": "client-source",
       "mihomo": "none",
