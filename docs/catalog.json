@@ -150,12 +150,12 @@
       "mihomo": "full",
       "description": "电视、媒体元数据和抓取服务",
       "source": "tv.list",
-      "surge_rules": 28,
+      "surge_rules": 49,
       "mihomo_file": "tv.yaml",
-      "mihomo_rules": 28,
+      "mihomo_rules": 49,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "01d80327c1703768bc1e0d7e04a566cb1a761e4eb7e517302dd9f727c67299ec"
+      "active_rules_sha256": "b85d459ab810426ad6a3e7a810ca72915a8a132622a15b2904f16900df9c6ac8"
     },
     {
       "name": "ziniao",
@@ -230,12 +230,12 @@
       "mihomo": "full",
       "description": "直连媒体及 CDN 例外",
       "source": "tvdirect.list",
-      "surge_rules": 116,
+      "surge_rules": 165,
       "mihomo_file": "tvdirect.yaml",
-      "mihomo_rules": 116,
+      "mihomo_rules": 165,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "6a94dfb449ee08825b342e1fa93c855aa6879c830a1374e375a19e07c0538725"
+      "active_rules_sha256": "ff32fd12981b449c886ddd0064fc806558a84d239bf1f874ab4266d8c1d02d18"
     },
     {
       "name": "oix-hk",
