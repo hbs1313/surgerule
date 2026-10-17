@@ -150,12 +150,12 @@
       "mihomo": "full",
       "description": "电视、媒体元数据和抓取服务",
       "source": "tv.list",
-      "surge_rules": 25,
+      "surge_rules": 28,
       "mihomo_file": "tv.yaml",
-      "mihomo_rules": 25,
+      "mihomo_rules": 28,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "fe92cac07de3f1b1ea7dc0385093f391f8291a7d8e1575a7a8562b1463b697d4"
+      "active_rules_sha256": "01d80327c1703768bc1e0d7e04a566cb1a761e4eb7e517302dd9f727c67299ec"
     },
     {
       "name": "ziniao",
@@ -230,12 +230,12 @@
       "mihomo": "full",
       "description": "直连媒体及 CDN 例外",
       "source": "tvdirect.list",
-      "surge_rules": 47,
+      "surge_rules": 116,
       "mihomo_file": "tvdirect.yaml",
-      "mihomo_rules": 47,
+      "mihomo_rules": 116,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "e4b367e3a71eb0b8f241fe3b8f04ae6f93668364826aaca79b5acc9e674e0a89"
+      "active_rules_sha256": "6a94dfb449ee08825b342e1fa93c855aa6879c830a1374e375a19e07c0538725"
     },
     {
       "name": "oix-hk",
@@ -269,12 +269,12 @@
       "mihomo": "full",
       "description": "美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT）",
       "source": "usiptv.list",
-      "surge_rules": 95,
+      "surge_rules": 117,
       "mihomo_file": "usiptv.yaml",
-      "mihomo_rules": 95,
+      "mihomo_rules": 117,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "53c49742cfb4ee6f754ce4b78cbd6691320963d3df294ab5c6393ce46f45a3b2"
+      "active_rules_sha256": "99e20ba0a18a656066e650f75d6126caa1b2d424b56c0bfa1c423e9d256a8df4"
     },
     {
       "name": "yy",

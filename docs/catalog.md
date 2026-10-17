@@ -15,16 +15,16 @@
 | [twitter](../twitter.list) | ai | 32 | 32 | 完整 | X / Twitter 账号、API 与图片，跟固定 AI 落地；大流量视频由 video-proxy 先匹配 |
 | [video-proxy](../video-proxy.list) | proxy | 3 | 3 | 完整 | X 媒体例外，必须位于 twitter 之前 |
 | [proxy](../proxy.list) | proxy | 11 | 11 | 完整 | 普通代理例外；未纳入共享业务顺序 |
-| [tv](../tv.list) | proxy | 25 | 25 | 完整 | 电视、媒体元数据和抓取服务 |
+| [tv](../tv.list) | proxy | 28 | 28 | 完整 | 电视、媒体元数据和抓取服务 |
 | [ziniao](../ziniao.list) | client-direct | 12 | 12 | 完整 | 紫鸟客户端与服务；默认留在本地处理 |
 | [mmcdirect](../mmcdirect.list) | client-direct | 74 | 74 | 完整 | 本地直连例外；不要整表接管到境外 Hub |
 | [capcut](../capcut.list) | client-direct | 10 | 10 | 完整 | 剪映及字节媒体端点 |
 | [wechat](../wechat.list) | client-direct | 344 | 342 | 部分：USER-AGENT 留在 Surge | 微信域名/IP/ASN；2 条 USER-AGENT 仅 Surge 可用 |
 | [wecom](../wecom.list) | client-direct | 8 | 8 | 完整 | 企业微信端点 |
-| [tvdirect](../tvdirect.list) | client-direct | 47 | 47 | 完整 | 直连媒体及 CDN 例外 |
+| [tvdirect](../tvdirect.list) | client-direct | 116 | 116 | 完整 | 直连媒体及 CDN 例外 |
 | [oix-hk](../oix-hk.list) | dedicated | 3 | 3 | 完整 | oix 香港专用规则；不自动并入普通代理 |
 | [spectrum](../spectrum.list) | dedicated | 6 | 6 | 完整 | Spectrum 账户及 CDN；出口由私有配置绑定 |
-| [usiptv](../usiptv.list) | dedicated | 95 | 95 | 完整 | 美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT） |
+| [usiptv](../usiptv.list) | dedicated | 117 | 117 | 完整 | 美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT） |
 | [yy](../yy.list) | client-source | 6 | 0 | 仅本地源地址，不生成 Hub 规则 | 运营设备源 IP，只在本地网关使用 |
 | [zhuli](../zhuli.list) | client-source | 3 | 0 | 仅本地源地址，不生成 Hub 规则 | 助理设备源 IP，只在本地网关使用 |
 | [agg-proxy](../agg-proxy.list) | proxy | 1766 | 1749 | 部分：USER-AGENT 留在 Surge | 生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类 |

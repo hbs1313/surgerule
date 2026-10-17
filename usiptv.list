@@ -1,7 +1,7 @@
 # NAME: US IPTV
 # AUTHOR: ben
-# UPDATED: 2026-10-15
-# NOTE: US / North America IPTV, FAST channels, EPG and live stream CDNs; bound to direct DMIT exit (美国-DMIT).
+# UPDATED: 2026-10-16
+# NOTE: US / North America IPTV, FAST channels, EPG, live stream CDNs and YouTube video; bound to direct DMIT exit (美国-DMIT).
 
 # IPTV subscription redirectors, EPG & player metadata
 DOMAIN,tgbot-sub.sharewithyou.dpdns.org
@@ -107,3 +107,27 @@ IP-CIDR,89.187.179.0/24,no-resolve
 IP-CIDR,45.139.122.0/24,no-resolve
 IP-CIDR,143.244.60.0/24,no-resolve
 IP-CIDR,198.16.100.0/24,no-resolve
+
+# YouTube & YouTube video stream CDNs (direct DMIT exit; Gemini AI remains in ai-google.list -> US-69)
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,youtube.googleapis.com
+DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube-ui.l.google.com
+DOMAIN-SUFFIX,wide-youtube.l.google.com
+DOMAIN-SUFFIX,video.google.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubefanfest.com
+DOMAIN-SUFFIX,youtubego.com
+DOMAIN-SUFFIX,youtubemobilesupport.com
