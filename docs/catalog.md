@@ -21,7 +21,7 @@
 | [capcut](../capcut.list) | client-direct | 10 | 10 | 完整 | 剪映及字节媒体端点 |
 | [wechat](../wechat.list) | client-direct | 344 | 342 | 部分：USER-AGENT 留在 Surge | 微信域名/IP/ASN；2 条 USER-AGENT 仅 Surge 可用 |
 | [wecom](../wecom.list) | client-direct | 8 | 8 | 完整 | 企业微信端点 |
-| [tvdirect](../tvdirect.list) | client-direct | 165 | 165 | 完整 | 直连媒体及 CDN 例外 |
+| [tvdirect](../tvdirect.list) | client-direct | 166 | 166 | 完整 | 直连媒体及 CDN 例外 |
 | [oix-hk](../oix-hk.list) | dedicated | 3 | 3 | 完整 | oix 香港专用规则；不自动并入普通代理 |
 | [spectrum](../spectrum.list) | dedicated | 6 | 6 | 完整 | Spectrum 账户及 CDN；出口由私有配置绑定 |
 | [usiptv](../usiptv.list) | dedicated | 117 | 117 | 完整 | 美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT） |
@@ -37,5 +37,6 @@
 | [skk-apple-services](../skk-apple-services.list) | client-direct | 26 | 18 | 部分：USER-AGENT 留在 Surge | 收编自 ruleset.skk.moe non_ip/apple_services.conf（AGPL-3.0；PROCESS-NAME 仅 Surge） |
 | [skk-apple-cdn](../skk-apple-cdn.list) | client-direct | 160 | 160 | 完整 | 收编自 ruleset.skk.moe domainset/apple_cdn.conf（AGPL-3.0；bare domain 已转 DOMAIN-SUFFIX） |
 | [agg-tiktok](../agg-tiktok.list) | work-us | 34 | 32 | 部分：USER-AGENT 留在 Surge | 生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US） |
+| [seedhost](../seedhost.list) | dedicated | 2 | 2 | 完整 | Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组 |
 
 “语法可用于 Mihomo”不代表应在境外 Hub 接管：国内直连与源设备规则仍由本地网关负责。

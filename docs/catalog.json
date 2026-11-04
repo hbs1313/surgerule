@@ -230,12 +230,12 @@
       "mihomo": "full",
       "description": "直连媒体及 CDN 例外",
       "source": "tvdirect.list",
-      "surge_rules": 165,
+      "surge_rules": 166,
       "mihomo_file": "tvdirect.yaml",
-      "mihomo_rules": 165,
+      "mihomo_rules": 166,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "ff32fd12981b449c886ddd0064fc806558a84d239bf1f874ab4266d8c1d02d18"
+      "active_rules_sha256": "473567eda228bdeedc1285b1b6db828fbc08b20e22d6de9c0f7933e494130a0d"
     },
     {
       "name": "oix-hk",
@@ -452,6 +452,19 @@
       ],
       "excluded_count": 2,
       "active_rules_sha256": "3259df806e03c69219f2081fe14e6c812ac2e40f5f10eef55a9164323aa95e6c"
+    },
+    {
+      "name": "seedhost",
+      "category": "dedicated",
+      "mihomo": "full",
+      "description": "Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组",
+      "source": "seedhost.list",
+      "surge_rules": 2,
+      "mihomo_file": "seedhost.yaml",
+      "mihomo_rules": 2,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "340ab753c31dfa5f9272da5a03c470d6320eeebf7605c7fa2470800703971b81"
     }
   ]
 }
