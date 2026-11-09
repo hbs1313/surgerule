@@ -171,6 +171,11 @@
    "category": "dedicated",
    "mihomo": "full",
    "description": "Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组"
+  },
+  "reject": {
+   "category": "dedicated",
+   "mihomo": "full",
+   "description": "已下线（NXDOMAIN）仍被客户端轮询的主机；本地拒绝，不再打上游 DNS"
   }
  },
  "rules": [
@@ -213,6 +218,10 @@
   [
    "mmc",
    "Work-US"
+  ],
+  [
+   "reject",
+   "REJECT"
   ]
  ]
 }

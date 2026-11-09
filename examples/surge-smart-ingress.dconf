@@ -11,3 +11,4 @@ RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/ben.list,SMART
 RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/video-proxy.list,SMART-入口,extended-matching,update-interval=3600
 RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/twitter.list,SMART-入口,extended-matching,update-interval=3600
 RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/mmc.list,SMART-入口,extended-matching,update-interval=3600
+RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/reject.list,SMART-入口,extended-matching,update-interval=3600

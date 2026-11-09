@@ -38,5 +38,6 @@
 | [skk-apple-cdn](../skk-apple-cdn.list) | client-direct | 160 | 160 | 完整 | 收编自 ruleset.skk.moe domainset/apple_cdn.conf（AGPL-3.0；bare domain 已转 DOMAIN-SUFFIX） |
 | [agg-tiktok](../agg-tiktok.list) | work-us | 34 | 32 | 部分：USER-AGENT 留在 Surge | 生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US） |
 | [seedhost](../seedhost.list) | dedicated | 2 | 2 | 完整 | Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组 |
+| [reject](../reject.list) | dedicated | 1 | 1 | 完整 | 已下线（NXDOMAIN）仍被客户端轮询的主机；本地拒绝，不再打上游 DNS |
 
 “语法可用于 Mihomo”不代表应在境外 Hub 接管：国内直连与源设备规则仍由本地网关负责。

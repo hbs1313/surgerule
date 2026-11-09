@@ -11,3 +11,4 @@ RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/ben.list,Work-
 RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/video-proxy.list,Proxy,extended-matching,update-interval=3600
 RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/twitter.list,AI,extended-matching,update-interval=3600
 RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/mmc.list,Work-US,extended-matching,update-interval=3600
+RULE-SET,https://raw.githubusercontent.com/hbs1313/surgerule/main/reject.list,REJECT,extended-matching,update-interval=3600

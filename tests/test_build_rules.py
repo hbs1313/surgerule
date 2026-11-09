@@ -130,7 +130,7 @@ class RuleTests(unittest.TestCase):
 
     def test_existing_manifest_order_and_policy_preserved(self):
         order = B['load_manifest'](ROOT)['rules']
-        self.assertEqual(order, [['ai-apple', 'AI-Apple'], ['ai-claude', 'AI-Claude'], ['ai-chat', 'AI-OpenAI'], ['ai-google', 'AI-Google'], ['ai', 'AI'], ['us', 'AI'], ['ben', 'Work-US'], ['video-proxy', 'Proxy'], ['twitter', 'AI'], ['mmc', 'Work-US']])
+        self.assertEqual(order, [['ai-apple', 'AI-Apple'], ['ai-claude', 'AI-Claude'], ['ai-chat', 'AI-OpenAI'], ['ai-google', 'AI-Google'], ['ai', 'AI'], ['us', 'AI'], ['ben', 'Work-US'], ['video-proxy', 'Proxy'], ['twitter', 'AI'], ['mmc', 'Work-US'], ['reject', 'REJECT']])
 
     def test_generated_yaml_exactly_preserves_portable_rule_order(self):
         output = B['compile_repository'](ROOT)

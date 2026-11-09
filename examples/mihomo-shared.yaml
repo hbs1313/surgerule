@@ -71,6 +71,13 @@ rule-providers:
     url: https://raw.githubusercontent.com/hbs1313/surgerule/main/mmc.yaml
     path: ./surgerule/mmc.yaml
     interval: 3600
+  canonical-reject:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/hbs1313/surgerule/main/reject.yaml
+    path: ./surgerule/reject.yaml
+    interval: 3600
 rules:
   - "RULE-SET,canonical-ai-apple,AI-Apple"
   - "RULE-SET,canonical-ai-claude,AI-Claude"
@@ -82,3 +89,4 @@ rules:
   - "RULE-SET,canonical-video-proxy,Proxy"
   - "RULE-SET,canonical-twitter,AI"
   - "RULE-SET,canonical-mmc,Work-US"
+  - "RULE-SET,canonical-reject,REJECT"

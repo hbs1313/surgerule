@@ -465,6 +465,19 @@
       "excluded_types": [],
       "excluded_count": 0,
       "active_rules_sha256": "340ab753c31dfa5f9272da5a03c470d6320eeebf7605c7fa2470800703971b81"
+    },
+    {
+      "name": "reject",
+      "category": "dedicated",
+      "mihomo": "full",
+      "description": "已下线（NXDOMAIN）仍被客户端轮询的主机；本地拒绝，不再打上游 DNS",
+      "source": "reject.list",
+      "surge_rules": 1,
+      "mihomo_file": "reject.yaml",
+      "mihomo_rules": 1,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "1c5328583566a43da6a1e107307c0b04bb660d6593a40e3812f3e70a5210e8ad"
     }
   ]
 }

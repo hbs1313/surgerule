@@ -1,0 +1,7 @@
+# NAME: Reject (dead hosts)
+# AUTHOR: ben
+# UPDATED: 2026-11-09
+# NOTE: Hosts that no longer resolve (NXDOMAIN per Alidns and Cloudflare DoH) but are still
+#       polled by client software on the LAN. Rejecting locally stops every retry from hitting
+#       upstream DoH and writing two error lines per attempt. Add only names verified NXDOMAIN.
+DOMAIN,static2.servyou.com.cn
