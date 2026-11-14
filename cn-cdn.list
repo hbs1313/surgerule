@@ -1,0 +1,8 @@
+# NAME: CN CDN
+# AUTHOR: ben
+# UPDATED: 2026-11-14
+# NOTE: Mainland CDN hostnames that are not covered by China/ChinaIPs and therefore fell through
+#       to FINAL (US DMIT). 360buyimg.com resolves to China Mobile CDN (111.13.149.108 /
+#       36.143.249.193); measured 2026-11-14 via DMIT 881 ms vs DIRECT 139 ms.
+
+DOMAIN-SUFFIX,360buyimg.com

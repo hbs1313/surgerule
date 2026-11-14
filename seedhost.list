@@ -1,7 +1,0 @@
-# NAME: Seedhost
-# AUTHOR: ben
-# UPDATED: 2026-10-26
-# NOTE: Seedbox/seedhost traffic pinned to the oix Singapore group (oix-xjp) so bulk
-#       transfers stay off the PO0/CCN and IX quotas.
-DOMAIN-SUFFIX,seedhost.eu
-DOMAIN-SUFFIX,seedhost.net
