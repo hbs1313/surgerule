@@ -1767,7 +1767,6 @@ IP-CIDR6,2a0a:f280::/29,no-resolve
 OR,((IP-ASN,44907,no-resolve),(IP-ASN,59930,no-resolve),(IP-ASN,62014,no-resolve),(IP-ASN,62041,no-resolve),(IP-ASN,211157,no-resolve))
 PROCESS-NAME,OneDrive
 PROCESS-NAME,OneDriveUpdater
-PROCESS-NAME,TV
 PROCESS-NAME,com.disney.datg.videoplatforms.android.abc
 PROCESS-NAME,com.disney.disneyplus
 PROCESS-NAME,com.netflix.mediaclient
@@ -1776,8 +1775,6 @@ PROCESS-NAME,org.telegram.messenger
 PROCESS-NAME,telegram-desktop
 PROCESS-NAME,tw.nekomimi.nekogram
 PROCESS-NAME,xyz.nextalone.nagram
-USER-AGENT,AppleTV*
 USER-AGENT,Argo*
 USER-AGENT,Disney+*
 USER-AGENT,PayPal*
-USER-AGENT,com.apple.tv*
