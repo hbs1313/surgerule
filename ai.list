@@ -1,6 +1,6 @@
 # NAME: AI Services
 # AUTHOR: ben
-# UPDATED: 2026-10-13
+# UPDATED: 2026-11-15
 # NOTE: Product domains plus exact vendor-documented dependencies.
 # Broad shared-platform suffixes, whole ASNs, and fixed IPs are excluded.
 
@@ -143,3 +143,35 @@ DOMAIN-SUFFIX,buzz.xyz
 DOMAIN-SUFFIX,annualcreditreport.com
 DOMAIN-SUFFIX,equifax.com
 DOMAIN-SUFFIX,experian.com
+
+# --- 2026-11-15: services that previously fell through to FINAL and therefore to the default
+# --- proxy instead of the fixed AI exit. Foreign-hosted; CN-hosted AI (deepseek, doubao) stays direct.
+# Mistral
+DOMAIN-SUFFIX,mistral.ai
+# Poe (Quora)
+DOMAIN-SUFFIX,poe.com
+# Suno
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,suno.ai
+# Runway
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runway.com
+# Replicate / Stability / Luma / Ideogram / Leonardo
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,ideogram.ai
+DOMAIN-SUFFIX,leonardo.ai
+# Voice / inference vendors
+DOMAIN-SUFFIX,assemblyai.com
+DOMAIN-SUFFIX,deepgram.com
+DOMAIN-SUFFIX,runware.ai
+DOMAIN-SUFFIX,fal.ai
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,anannas.ai
+# Model hubs and community
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,lmarena.ai
+DOMAIN-SUFFIX,midjourney.com
