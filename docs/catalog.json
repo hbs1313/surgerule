@@ -59,12 +59,12 @@
       "mihomo": "full",
       "description": "其他 AI 与单组兼容列表；不是所有子表的完整并集",
       "source": "ai.list",
-      "surge_rules": 115,
+      "surge_rules": 137,
       "mihomo_file": "ai.yaml",
-      "mihomo_rules": 115,
+      "mihomo_rules": 137,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "9d0714ae5390ebcfcc5cf0e6ff689570325b05235a0f80d9a9df8bc88b702ccf"
+      "active_rules_sha256": "65a24baf5c4e17f6c1870a51d6ca8fc45cbdcf20281ccd25ae4bc73c90c2ebc1"
     },
     {
       "name": "us",
@@ -251,6 +251,19 @@
       "active_rules_sha256": "e2fa402ed3ad548a8be9c9c1f4b7be5246482b48ce0a4fa653998387ca2535ee"
     },
     {
+      "name": "oix-us",
+      "category": "dedicated",
+      "mihomo": "full",
+      "description": "oix 美国专用规则；不自动并入普通代理",
+      "source": "oix-us.list",
+      "surge_rules": 1,
+      "mihomo_file": "oix-us.yaml",
+      "mihomo_rules": 1,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "634d51afb089f9b23f36dba6aad2126ac6ca79da9d30772e264f3b5718cad049"
+    },
+    {
       "name": "spectrum",
       "category": "dedicated",
       "mihomo": "full",
@@ -312,7 +325,7 @@
       "mihomo": "partial",
       "description": "生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类",
       "source": "agg-proxy.list",
-      "surge_rules": 1766,
+      "surge_rules": 1763,
       "mihomo_file": "agg-proxy.yaml",
       "mihomo_rules": 1749,
       "excluded_types": [
@@ -320,8 +333,8 @@
         "PROCESS-NAME",
         "USER-AGENT"
       ],
-      "excluded_count": 17,
-      "active_rules_sha256": "e109af3fe51df1189d6147b7f849e7969f235c35d7654024ee19bf1c002db8a1"
+      "excluded_count": 14,
+      "active_rules_sha256": "64a966556b244927da221d97db6a72b5b25f9ebca71128a0691f6a26047d59c6"
     },
     {
       "name": "agg-google",
@@ -454,19 +467,6 @@
       "active_rules_sha256": "3259df806e03c69219f2081fe14e6c812ac2e40f5f10eef55a9164323aa95e6c"
     },
     {
-      "name": "seedhost",
-      "category": "dedicated",
-      "mihomo": "full",
-      "description": "Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组",
-      "source": "seedhost.list",
-      "surge_rules": 2,
-      "mihomo_file": "seedhost.yaml",
-      "mihomo_rules": 2,
-      "excluded_types": [],
-      "excluded_count": 0,
-      "active_rules_sha256": "340ab753c31dfa5f9272da5a03c470d6320eeebf7605c7fa2470800703971b81"
-    },
-    {
       "name": "reject",
       "category": "dedicated",
       "mihomo": "full",
@@ -478,6 +478,19 @@
       "excluded_types": [],
       "excluded_count": 0,
       "active_rules_sha256": "1c5328583566a43da6a1e107307c0b04bb660d6593a40e3812f3e70a5210e8ad"
+    },
+    {
+      "name": "cn-cdn",
+      "category": "client-direct",
+      "mihomo": "full",
+      "description": "国内 CDN 直连例外；补 ChinaIPs 漏网、避免落到境外出口",
+      "source": "cn-cdn.list",
+      "surge_rules": 1,
+      "mihomo_file": "cn-cdn.yaml",
+      "mihomo_rules": 1,
+      "excluded_types": [],
+      "excluded_count": 0,
+      "active_rules_sha256": "25e98a59698cb7ac300450553f218e4eaace9c6c05f4df4e8c6c7f296911b75e"
     }
   ]
 }

@@ -97,6 +97,11 @@
    "mihomo": "full",
    "description": "oix 香港专用规则；不自动并入普通代理"
   },
+  "oix-us": {
+   "category": "dedicated",
+   "mihomo": "full",
+   "description": "oix 美国专用规则；不自动并入普通代理"
+  },
   "spectrum": {
    "category": "dedicated",
    "mihomo": "full",
@@ -167,15 +172,15 @@
    "mihomo": "partial",
    "description": "生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US）"
   },
-  "seedhost": {
-   "category": "dedicated",
-   "mihomo": "full",
-   "description": "Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组"
-  },
   "reject": {
    "category": "dedicated",
    "mihomo": "full",
    "description": "已下线（NXDOMAIN）仍被客户端轮询的主机；本地拒绝，不再打上游 DNS"
+  },
+  "cn-cdn": {
+   "category": "client-direct",
+   "mihomo": "full",
+   "description": "国内 CDN 直连例外；补 ChinaIPs 漏网、避免落到境外出口"
   }
  },
  "rules": [

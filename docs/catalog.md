@@ -8,7 +8,7 @@
 | [ai-claude](../ai-claude.list) | ai | 26 | 26 | 完整 | Claude 及共享依赖，优先于 OpenAI |
 | [ai-chat](../ai-chat.list) | ai | 35 | 35 | 完整 | OpenAI / ChatGPT 及依赖 |
 | [ai-google](../ai-google.list) | ai | 21 | 21 | 完整 | Google AI 和已指定的身份敏感业务 |
-| [ai](../ai.list) | ai | 115 | 115 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |
+| [ai](../ai.list) | ai | 137 | 137 | 完整 | 其他 AI 与单组兼容列表；不是所有子表的完整并集 |
 | [us](../us.list) | ai | 10 | 10 | 完整 | 沿用 AI 组的美国业务例外 |
 | [ben](../ben.list) | work-us | 56 | 56 | 完整 | 个人及业务站点，沿用 Work-US |
 | [mmc](../mmc.list) | work-us | 45 | 45 | 完整 | 业务、网络及 SaaS 站点，沿用 Work-US |
@@ -23,11 +23,12 @@
 | [wecom](../wecom.list) | client-direct | 8 | 8 | 完整 | 企业微信端点 |
 | [tvdirect](../tvdirect.list) | client-direct | 166 | 166 | 完整 | 直连媒体及 CDN 例外 |
 | [oix-hk](../oix-hk.list) | dedicated | 3 | 3 | 完整 | oix 香港专用规则；不自动并入普通代理 |
+| [oix-us](../oix-us.list) | dedicated | 1 | 1 | 完整 | oix 美国专用规则；不自动并入普通代理 |
 | [spectrum](../spectrum.list) | dedicated | 6 | 6 | 完整 | Spectrum 账户及 CDN；出口由私有配置绑定 |
 | [usiptv](../usiptv.list) | dedicated | 117 | 117 | 完整 | 美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT） |
 | [yy](../yy.list) | client-source | 6 | 0 | 仅本地源地址，不生成 Hub 规则 | 运营设备源 IP，只在本地网关使用 |
 | [zhuli](../zhuli.list) | client-source | 3 | 0 | 仅本地源地址，不生成 Hub 规则 | 助理设备源 IP，只在本地网关使用 |
-| [agg-proxy](../agg-proxy.list) | proxy | 1766 | 1749 | 部分：USER-AGENT 留在 Surge | 生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类 |
+| [agg-proxy](../agg-proxy.list) | proxy | 1763 | 1749 | 部分：USER-AGENT 留在 Surge | 生成：聚合 14 个上游服务类列表（网关→入口、手机→Proxy）；no-resolve 无 IP 规则者并入同一类 |
 | [agg-google](../agg-google.list) | ai | 903 | 888 | 部分：USER-AGENT 留在 Surge | 生成：Google/YouTube/Gemini/GoogleVoice 聚合（网关→入口、手机→AI-Google） |
 | [agg-workus](../agg-workus.list) | work-us | 167 | 167 | 完整 | 生成：Adobe/LinkedIn/Reddit/Shopify/TruthSocial 聚合（Work-US；TikTok 因网关侧折叠到入口而单独引用上游） |
 | [agg-workus-nr](../agg-workus-nr.list) | work-us | 571 | 571 | 完整 | 生成：Facebook/Instagram 聚合（Work-US, no-resolve；两者带 IP 规则故单独一组） |
@@ -37,7 +38,7 @@
 | [skk-apple-services](../skk-apple-services.list) | client-direct | 26 | 18 | 部分：USER-AGENT 留在 Surge | 收编自 ruleset.skk.moe non_ip/apple_services.conf（AGPL-3.0；PROCESS-NAME 仅 Surge） |
 | [skk-apple-cdn](../skk-apple-cdn.list) | client-direct | 160 | 160 | 完整 | 收编自 ruleset.skk.moe domainset/apple_cdn.conf（AGPL-3.0；bare domain 已转 DOMAIN-SUFFIX） |
 | [agg-tiktok](../agg-tiktok.list) | work-us | 34 | 32 | 部分：USER-AGENT 留在 Surge | 生成：bm7 TikTok + Semporia TikTok-Unlock 聚合（网关=入口 / 手机=Work-US） |
-| [seedhost](../seedhost.list) | dedicated | 2 | 2 | 完整 | Seedbox 大流量传输专用；出口由私有配置绑定 oix 新加坡组 |
 | [reject](../reject.list) | dedicated | 1 | 1 | 完整 | 已下线（NXDOMAIN）仍被客户端轮询的主机；本地拒绝，不再打上游 DNS |
+| [cn-cdn](../cn-cdn.list) | client-direct | 1 | 1 | 完整 | 国内 CDN 直连例外；补 ChinaIPs 漏网、避免落到境外出口 |
 
 “语法可用于 Mihomo”不代表应在境外 Hub 接管：国内直连与源设备规则仍由本地网关负责。
