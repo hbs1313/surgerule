@@ -9,9 +9,11 @@ DOMAIN-SUFFIX,aheca.cn
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,digicert.cn
 DOMAIN-SUFFIX,dingtalkapps.com
+DOMAIN-SUFFIX,doubao.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,feishucdn.com
 DOMAIN-SUFFIX,kdocs.cn
 DOMAIN-SUFFIX,ksord.com
 DOMAIN-SUFFIX,lingxing.com
@@ -95,6 +97,10 @@ DOMAIN-SUFFIX,cdn.shopify.com
 DOMAIN-SUFFIX,monorail-edge.shopifysvc.com
 DOMAIN-SUFFIX,otlp-http-production.shopifysvc.com
 DOMAIN-SUFFIX,argus.shopifycloud.com
+
+# PlayStation downloads: dl.playstation.net answers directly and the PS5 pulls hundreds of GB per month,
+# so keep it off the metered DMIT exits. The rest of playstation.net/com stays on oix-hk (see oix-hk.list).
+DOMAIN-SUFFIX,dl.playstation.net
 
 # Speed tests measure the local line
 DOMAIN-KEYWORD,speedtest

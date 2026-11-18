@@ -176,12 +176,12 @@
       "mihomo": "full",
       "description": "本地直连例外；不要整表接管到境外 Hub",
       "source": "mmcdirect.list",
-      "surge_rules": 74,
+      "surge_rules": 77,
       "mihomo_file": "mmcdirect.yaml",
-      "mihomo_rules": 74,
+      "mihomo_rules": 77,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "e5f57d35f19fbefe68b9a1829d9f016486925fc5a3d73ea485716cef6efcb9ac"
+      "active_rules_sha256": "252775bba79be7eed47c2dac2022e0985f708fa87a5ef0d47d96efd70bc7aa87"
     },
     {
       "name": "capcut",
@@ -243,12 +243,12 @@
       "mihomo": "full",
       "description": "oix 香港专用规则；不自动并入普通代理",
       "source": "oix-hk.list",
-      "surge_rules": 3,
+      "surge_rules": 6,
       "mihomo_file": "oix-hk.yaml",
-      "mihomo_rules": 3,
+      "mihomo_rules": 6,
       "excluded_types": [],
       "excluded_count": 0,
-      "active_rules_sha256": "e2fa402ed3ad548a8be9c9c1f4b7be5246482b48ce0a4fa653998387ca2535ee"
+      "active_rules_sha256": "7d3ba85ff7e6a2dbd64627e7ed61e8c4c2f19a9d30987a9b27ec6198c3684594"
     },
     {
       "name": "oix-us",

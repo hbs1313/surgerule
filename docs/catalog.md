@@ -17,12 +17,12 @@
 | [proxy](../proxy.list) | proxy | 11 | 11 | 完整 | 普通代理例外；未纳入共享业务顺序 |
 | [tv](../tv.list) | proxy | 49 | 49 | 完整 | 电视、媒体元数据和抓取服务 |
 | [ziniao](../ziniao.list) | client-direct | 12 | 12 | 完整 | 紫鸟客户端与服务；默认留在本地处理 |
-| [mmcdirect](../mmcdirect.list) | client-direct | 74 | 74 | 完整 | 本地直连例外；不要整表接管到境外 Hub |
+| [mmcdirect](../mmcdirect.list) | client-direct | 77 | 77 | 完整 | 本地直连例外；不要整表接管到境外 Hub |
 | [capcut](../capcut.list) | client-direct | 10 | 10 | 完整 | 剪映及字节媒体端点 |
 | [wechat](../wechat.list) | client-direct | 344 | 342 | 部分：USER-AGENT 留在 Surge | 微信域名/IP/ASN；2 条 USER-AGENT 仅 Surge 可用 |
 | [wecom](../wecom.list) | client-direct | 8 | 8 | 完整 | 企业微信端点 |
 | [tvdirect](../tvdirect.list) | client-direct | 166 | 166 | 完整 | 直连媒体及 CDN 例外 |
-| [oix-hk](../oix-hk.list) | dedicated | 3 | 3 | 完整 | oix 香港专用规则；不自动并入普通代理 |
+| [oix-hk](../oix-hk.list) | dedicated | 6 | 6 | 完整 | oix 香港专用规则；不自动并入普通代理 |
 | [oix-us](../oix-us.list) | dedicated | 1 | 1 | 完整 | oix 美国专用规则；不自动并入普通代理 |
 | [spectrum](../spectrum.list) | dedicated | 6 | 6 | 完整 | Spectrum 账户及 CDN；出口由私有配置绑定 |
 | [usiptv](../usiptv.list) | dedicated | 117 | 117 | 完整 | 美区 IPTV / FAST 直播源、EPG 与流媒体切片 CDN；网关/客户端直连 DMIT（美国-DMIT） |
